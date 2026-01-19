@@ -220,114 +220,75 @@ export default function Home() {
   // Jika NIM belum disubmit, tampilkan form input NIM
   if (!nimSubmitted || !staffInfo) {
     return (
-      <div className="min-h-screen flex items-center justify-center p-4 bg-gradient-to-br from-[#f5f1e8] via-[#fdfbf7] to-[#f0ebe0] relative overflow-hidden">
-        {/* Animated Background Decorations */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute top-20 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl animate-float"></div>
-          <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent/10 rounded-full blur-3xl animate-float-delayed"></div>
-          <div className="absolute top-1/2 left-1/2 w-64 h-64 bg-primary/5 rounded-full blur-3xl animate-pulse-slow"></div>
-        </div>
-
-        <div className="max-w-lg w-full space-y-6 relative z-10">
-          <div className="text-center space-y-5 mb-8 animate-fade-in">
-            <div className="relative inline-flex items-center justify-center">
-              <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-accent/20 blur-2xl animate-pulse-slow rounded-full"></div>
-              <div className="relative w-24 h-24 rounded-full bg-gradient-to-br from-primary via-primary/90 to-accent flex items-center justify-center shadow-2xl border-4 border-white animate-float">
-                <span className="text-5xl">🎓</span>
-              </div>
-            </div>
-            <div className="space-y-3">
-              <h1 className="text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary/90 to-accent drop-shadow-sm">
+      <div className="min-h-screen flex items-center justify-center p-4 bg-gradient-to-br from-slate-50 to-slate-100">
+        <div className="max-w-md w-full space-y-6">
+          <div className="text-center space-y-4 mb-8">
+            <div className="space-y-2">
+              <h1 className="text-4xl font-bold text-slate-900 tracking-tight">
                 BEM KEMAKOM
               </h1>
-              <div className="inline-block">
-                <p className="text-xl font-bold text-accent px-6 py-2 rounded-full bg-accent/10 border-2 border-accent/20 shadow-lg">
-                  KABINET TUMBUH ASA
-                </p>
-              </div>
-              <p className="text-base text-muted-foreground font-medium">Portal Pesan & Kesan Pengurus</p>
+              <p className="text-lg font-semibold text-slate-700">
+                Kabinet Tumbuh Asa
+              </p>
+              <p className="text-sm text-slate-600">Portal Komunikasi Pengurus</p>
             </div>
           </div>
 
-          <Card className="shadow-2xl border-2 border-primary/20 backdrop-blur-xl bg-white/80 overflow-hidden relative group hover:shadow-primary/10 transition-all duration-500">
-            <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-            <CardHeader className="space-y-4 pb-6 relative">
-              <div className="flex items-center justify-center">
-                <div className="h-1 w-20 bg-gradient-to-r from-transparent via-primary to-transparent rounded-full"></div>
-              </div>
-              <CardTitle className="text-3xl text-center font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
-                Login Portal
+          <Card className="shadow-lg border border-slate-200">
+            <CardHeader className="space-y-2 pb-4">
+              <CardTitle className="text-2xl font-semibold text-slate-900">
+                Masuk Portal
               </CardTitle>
-              <CardDescription className="text-center text-base text-foreground/70">
-                Masukkan NIM Anda untuk mengakses portal
+              <CardDescription className="text-slate-600">
+                Masukkan NIM untuk mengakses portal komunikasi
               </CardDescription>
             </CardHeader>
-            <CardContent className="pb-8 relative">
-              <form onSubmit={handleNimSubmit} className="space-y-6">
-                <div className="space-y-3">
-                  <Label htmlFor="nim" className="text-base font-bold text-foreground flex items-center gap-2">
-                    <span className="h-6 w-6 rounded-lg bg-primary/10 flex items-center justify-center text-xs">🔐</span>
-                    Nomor Induk Mahasiswa (NIM)
+            <CardContent className="pb-6">
+              <form onSubmit={handleNimSubmit} className="space-y-5">
+                <div className="space-y-2">
+                  <Label htmlFor="nim" className="text-sm font-medium text-slate-700">
+                    Nomor Induk Mahasiswa
                   </Label>
-                  <div className="relative">
-                    <Input
-                      id="nim"
-                      type="text"
-                      placeholder="Contoh: 2300492"
-                      value={nim}
-                      onChange={(e) => {
-                        setNim(e.target.value);
-                        setError("");
-                      }}
-                      className={`h-14 text-base font-medium rounded-xl transition-all duration-300 ${
-                        error 
-                          ? "border-red-500 focus-visible:ring-red-500 focus-visible:ring-4" 
-                          : "border-primary/30 focus-visible:ring-primary focus-visible:ring-4 focus-visible:border-primary"
-                      }`}
-                    />
-                    {!error && nim && (
-                      <div className="absolute right-4 top-1/2 -translate-y-1/2 text-green-500 animate-fade-in">
-                        ✓
-                      </div>
-                    )}
-                  </div>
+                  <Input
+                    id="nim"
+                    type="text"
+                    placeholder="Masukkan NIM"
+                    value={nim}
+                    onChange={(e) => {
+                      setNim(e.target.value);
+                      setError("");
+                    }}
+                    className={`h-11 ${
+                      error 
+                        ? "border-red-500 focus-visible:ring-red-500" 
+                        : "focus-visible:ring-primary"
+                    }`}
+                  />
                   {error && (
-                    <div className="flex items-center gap-3 text-sm text-red-600 bg-red-50 p-4 rounded-xl border-2 border-red-200 shadow-sm animate-shake">
-                      <span className="text-lg">⚠️</span>
-                      <p className="font-semibold">{error}</p>
+                    <div className="flex items-start gap-2 text-sm text-red-700 bg-red-50 p-3 rounded-lg border border-red-200">
+                      <svg className="w-5 h-5 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
+                      </svg>
+                      <p className="font-medium">{error}</p>
                     </div>
                   )}
                 </div>
                 <Button 
                   type="submit" 
-                  className="w-full h-14 text-base font-bold bg-gradient-to-r from-primary via-primary/95 to-accent hover:from-primary/90 hover:via-primary/85 hover:to-accent/90 shadow-xl hover:shadow-2xl transition-all duration-300 relative overflow-hidden group"
+                  className="w-full h-11 bg-primary hover:bg-primary/90 font-medium"
                 >
-                  <span className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/20 to-white/0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></span>
-                  <span className="relative flex items-center justify-center gap-2">
-                    <span className="text-lg">🚀</span>
-                    Masuk Portal
-                  </span>
+                  Masuk ke Portal
                 </Button>
               </form>
             </CardContent>
           </Card>
 
-          <Card className="border-2 border-primary/20 bg-gradient-to-br from-white/90 to-white/70 backdrop-blur-xl shadow-lg overflow-hidden relative group hover:shadow-xl transition-all duration-300">
-            <div className="absolute inset-0 bg-gradient-to-r from-primary/0 via-primary/5 to-primary/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-            <CardContent className="pt-6 text-center relative">
-              <div className="flex items-center justify-center gap-2 flex-wrap">
-                <span className="inline-flex items-center gap-2 text-sm font-semibold text-primary px-4 py-2 rounded-full bg-primary/10 border border-primary/20">
-                  <span className="text-base">👥</span>
-                  103 Pengurus
-                </span>
-                <span className="inline-flex items-center gap-2 text-sm font-semibold text-primary px-4 py-2 rounded-full bg-primary/10 border border-primary/20">
-                  <span className="text-base">📊</span>
-                  8 Divisi
-                </span>
-                <span className="inline-flex items-center gap-2 text-sm font-semibold text-accent px-4 py-2 rounded-full bg-accent/10 border border-accent/20">
-                  <span className="text-base">💬</span>
-                  Portal Aktif
-                </span>
+          <Card className="border border-slate-200 bg-slate-50">
+            <CardContent className="pt-4 pb-4">
+              <div className="flex items-center justify-center gap-4 text-sm text-slate-600">
+                <span className="font-medium">103 Pengurus</span>
+                <span className="text-slate-400">•</span>
+                <span className="font-medium">8 Divisi</span>
               </div>
             </CardContent>
           </Card>
@@ -339,43 +300,27 @@ export default function Home() {
   // Interface untuk ADMIN (NIM 2300492)
   if (isAdmin && staffInfo) {
     return (
-      <div className="min-h-screen p-4 py-8 bg-gradient-to-br from-[#f5f1e8] via-[#fdfbf7] to-[#f0ebe0] relative overflow-hidden">
-        {/* Animated Background */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl animate-float"></div>
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-accent/5 rounded-full blur-3xl animate-float-delayed"></div>
-        </div>
-
-        <div className="max-w-7xl mx-auto space-y-8 relative z-10">
+      <div className="min-h-screen p-6 bg-slate-50">
+        <div className="max-w-7xl mx-auto space-y-6">
           {/* Header Admin */}
-          <Card className="shadow-2xl border-2 border-primary/30 bg-gradient-to-r from-white/95 via-primary/5 to-accent/10 backdrop-blur-xl overflow-hidden relative group">
-            <div className="absolute inset-0 bg-gradient-to-r from-primary/0 via-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
-            <CardHeader className="relative">
-              <div className="flex items-center justify-between flex-wrap gap-6">
-                <div className="flex items-center gap-6">
-                  <div className="relative">
-                    <div className="absolute -inset-2 bg-gradient-to-r from-primary to-accent rounded-full blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration-500"></div>
-                    <Avatar className="h-28 w-28 border-4 border-white shadow-2xl ring-4 ring-primary/20 relative">
-                      <AvatarImage src={staffInfo.photo} alt={staffInfo.nama} />
-                      <AvatarFallback className="bg-gradient-to-br from-primary via-primary/90 to-accent text-white text-3xl font-black">
-                        {staffInfo.nama.split(' ').slice(0, 2).map(n => n[0]).join('')}
-                      </AvatarFallback>
-                    </Avatar>
-                    <div className="absolute -bottom-2 -right-2 h-12 w-12 bg-gradient-to-br from-accent to-accent/90 rounded-full border-4 border-white flex items-center justify-center shadow-xl animate-bounce-slow">
-                      <span className="text-xl">👑</span>
-                    </div>
-                  </div>
+          <Card className="shadow-sm border border-slate-200">
+            <CardHeader>
+              <div className="flex items-center justify-between flex-wrap gap-4">
+                <div className="flex items-center gap-4">
+                  <Avatar className="h-20 w-20 border-2 border-slate-200">
+                    <AvatarImage src={staffInfo.photo} alt={staffInfo.nama} />
+                    <AvatarFallback className="bg-primary text-white text-xl font-semibold">
+                      {staffInfo.nama.split(' ').slice(0, 2).map(n => n[0]).join('')}
+                    </AvatarFallback>
+                  </Avatar>
                   <div>
-                    <CardTitle className="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary/90 to-accent mb-2">
+                    <CardTitle className="text-2xl font-bold text-slate-900">
                       {staffInfo.nama}
                     </CardTitle>
-                    <p className="text-muted-foreground text-xl font-semibold mb-3">{staffInfo.jabatan}</p>
-                    <div className="flex gap-2 flex-wrap">
-                      <Badge className="bg-gradient-to-r from-primary via-primary/95 to-accent text-white shadow-lg px-4 py-1.5 text-sm font-bold">
-                        <span className="mr-1">⭐</span> Admin Portal
-                      </Badge>
-                      <Badge variant="outline" className="border-primary/30 bg-white/80 text-primary px-4 py-1.5 text-sm font-semibold">
-                        <span className="mr-1">🎯</span> Full Access
+                    <p className="text-slate-600 text-sm mt-1">{staffInfo.jabatan}</p>
+                    <div className="flex gap-2 mt-2">
+                      <Badge className="bg-primary text-white font-medium">
+                        Administrator
                       </Badge>
                     </div>
                   </div>
@@ -389,62 +334,35 @@ export default function Home() {
                     setNim("");
                     setIsAdmin(false);
                   }}
-                  className="h-12 px-8 border-2 border-primary/30 hover:bg-primary/10 hover:border-primary font-semibold text-base transition-all duration-300 shadow-md hover:shadow-lg"
+                  className="h-10 px-6 font-medium"
                 >
-                  <span className="mr-2 text-lg">🚪</span>
-                  Logout
+                  Keluar
                 </Button>
               </div>
             </CardHeader>
           </Card>
 
           {/* Form Kirim Pesan ke Staff */}
-          <Card className="shadow-xl border-2 border-accent/30 overflow-hidden bg-gradient-to-br from-white via-accent/5 to-accent/10">
-            <CardHeader className="border-b bg-gradient-to-r from-accent/10 via-accent/5 to-transparent relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-64 h-64 bg-accent/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
-              <div className="relative">
-                <div className="flex items-center gap-4 mb-4">
-                  <div className="relative">
-                    <div className="h-16 w-16 rounded-2xl bg-gradient-to-br from-accent to-accent/80 flex items-center justify-center shadow-lg">
-                      <span className="text-3xl">✉️</span>
-                    </div>
-                    <div className="absolute -bottom-2 -right-2 h-8 w-8 bg-gradient-to-br from-primary to-primary/80 rounded-full border-4 border-white flex items-center justify-center shadow-lg">
-                      <span className="text-xs">✨</span>
-                    </div>
-                  </div>
-                  <div>
-                    <CardTitle className="text-3xl text-accent mb-1 font-bold">
-                      Kirim Pesan ke Pengurus
-                    </CardTitle>
-                    <CardDescription className="text-base text-foreground/70">
-                      Pilih pengurus dan kirimkan pesan pribadi kepada mereka
-                    </CardDescription>
-                  </div>
-                </div>
-                <div className="flex gap-2">
-                  <Badge className="bg-accent/20 text-accent border-accent/30">
-                    📨 Broadcast Message
-                  </Badge>
-                  <Badge variant="outline" className="border-accent/30">
-                    {staffData.filter(s => s.nim !== ADMIN_NIM).length} Pengurus Tersedia
-                  </Badge>
-                </div>
-              </div>
+          <Card className="shadow-sm border border-slate-200">
+            <CardHeader className="border-b">
+              <CardTitle className="text-xl font-semibold text-slate-900">
+                Kirim Pesan ke Pengurus
+              </CardTitle>
+              <CardDescription className="text-slate-600">
+                Pilih pengurus dan kirimkan pesan kepada mereka
+              </CardDescription>
             </CardHeader>
-            <CardContent className="pt-6 space-y-5 relative">
-              <div className="space-y-3">
-                <Label className="text-base font-semibold flex items-center gap-2">
-                  <span className="h-6 w-6 rounded-full bg-accent/10 flex items-center justify-center text-xs">
-                    👤
-                  </span>
+            <CardContent className="pt-6 space-y-4">
+              <div className="space-y-2">
+                <Label className="text-sm font-medium text-slate-700">
                   Pilih Penerima
                 </Label>
                 <select 
                   value={selectedStaffNim}
                   onChange={(e) => setSelectedStaffNim(e.target.value)}
-                  className="w-full h-12 px-4 rounded-xl border-2 border-accent/20 bg-white hover:border-accent focus:border-accent focus:ring-4 focus:ring-accent/20 transition-all text-base font-medium"
+                  className="w-full h-10 px-3 rounded-lg border border-slate-300 bg-white hover:border-slate-400 focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all text-sm"
                 >
-                  <option value="">-- Pilih Pengurus --</option>
+                  <option value="">Pilih pengurus</option>
                   {staffData.filter(s => s.nim !== ADMIN_NIM).map(staff => (
                     <option key={staff.nim} value={staff.nim}>
                       {staff.nama} - {staff.jabatan} ({getDivisionName(staff.divisi)})
@@ -452,57 +370,45 @@ export default function Home() {
                   ))}
                 </select>
               </div>
-              <div className="space-y-3">
-                <Label className="text-base font-semibold flex items-center gap-2">
-                  <span className="h-6 w-6 rounded-full bg-accent/10 flex items-center justify-center text-xs">
-                    ✍️
-                  </span>
-                  Pesan Anda
+              <div className="space-y-2">
+                <Label className="text-sm font-medium text-slate-700">
+                  Isi Pesan
                 </Label>
                 <Textarea
-                  placeholder="Tulis pesan untuk pengurus..."
+                  placeholder="Tulis pesan untuk pengurus"
                   value={adminMessage}
                   onChange={(e) => setAdminMessage(e.target.value)}
                   rows={5}
-                  className="resize-none border-2 border-accent/20 focus:border-accent focus:ring-4 focus:ring-accent/20 rounded-xl"
+                  className="resize-none border-slate-300 focus:border-primary focus:ring-2 focus:ring-primary/20"
                 />
-                <div className="flex items-center justify-between text-sm text-muted-foreground">
+                <div className="flex items-center justify-between text-xs text-slate-500">
                   <span>{adminMessage.length} karakter</span>
-                  {adminMessage.length > 0 && (
-                    <span className="text-accent font-medium">✓ Siap dikirim</span>
-                  )}
                 </div>
               </div>
               <Button 
                 onClick={handleSendMessageToStaff}
                 disabled={!selectedStaffNim || !adminMessage.trim()}
-                className="w-full h-12 bg-gradient-to-r from-accent via-accent to-accent/80 hover:from-accent/90 hover:to-accent/70 shadow-lg hover:shadow-xl transition-all text-base font-semibold"
+                className="w-full h-10 bg-primary hover:bg-primary/90 font-medium"
               >
-                <span className="mr-2 text-lg">📤</span>
-                Kirim Pesan Sekarang
+                Kirim Pesan
               </Button>
             </CardContent>
           </Card>
 
           {/* Inbox - Pesan Masuk untuk Admin */}
-          <Card className="border-2 border-primary/10 shadow-lg overflow-hidden">
-            <CardHeader className="bg-gradient-to-r from-primary/5 to-accent/5 border-b">
+          <Card className="shadow-sm border border-slate-200">
+            <CardHeader className="border-b">
               <div className="flex items-center justify-between">
-                <div className="flex items-center gap-3">
-                  <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
-                    <span className="text-2xl">📬</span>
-                  </div>
-                  <div>
-                    <CardTitle className="text-2xl flex items-center gap-2">
-                      Inbox - Pesan Masuk
-                    </CardTitle>
-                    <CardDescription className="text-base mt-1">
-                      {messages.length} pesan dari pengurus BEM KEMAKOM
-                    </CardDescription>
-                  </div>
+                <div>
+                  <CardTitle className="text-xl font-semibold text-slate-900">
+                    Pesan Masuk
+                  </CardTitle>
+                  <CardDescription className="text-slate-600 mt-1">
+                    {messages.length} pesan dari pengurus
+                  </CardDescription>
                 </div>
                 {messages.length > 0 && (
-                  <Badge variant="outline" className="text-sm px-3 py-1 border-orange-500 text-orange-600">
+                  <Badge variant="outline" className="text-xs px-3 py-1 border-orange-500 text-orange-600 font-medium">
                     {messages.filter(m => !m.response).length} belum dibalas
                   </Badge>
                 )}
@@ -510,10 +416,12 @@ export default function Home() {
             </CardHeader>
             <CardContent className="p-0">
               {messages.length === 0 ? (
-                <div className="text-center py-16 text-muted-foreground">
-                  <div className="text-7xl mb-4">📭</div>
-                  <p className="text-xl font-semibold mb-2">Inbox masih kosong</p>
-                  <p className="text-sm">Belum ada pesan masuk dari pengurus lain</p>
+                <div className="text-center py-20 text-slate-500">
+                  <svg className="mx-auto h-16 w-16 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
+                  </svg>
+                  <p className="text-lg font-medium mt-4">Belum Ada Pesan</p>
+                  <p className="text-sm mt-2">Pesan dari pengurus akan muncul di sini</p>
                 </div>
               ) : (
                 <div className="grid grid-cols-12 divide-x min-h-[600px]">
@@ -547,12 +455,12 @@ export default function Home() {
                                     {sender?.nama || `NIM ${msg.nim}`}
                                   </p>
                                   {msg.response ? (
-                                    <Badge variant="secondary" className="bg-green-100 text-green-700 text-xs flex-shrink-0">
-                                      ✓ Replied
+                                    <Badge variant="secondary" className="bg-green-50 text-green-700 text-xs flex-shrink-0 font-medium">
+                                      Dibalas
                                     </Badge>
                                   ) : (
-                                    <Badge variant="outline" className="border-orange-500 text-orange-600 text-xs flex-shrink-0">
-                                      New
+                                    <Badge variant="outline" className="border-orange-500 text-orange-600 text-xs flex-shrink-0 font-medium">
+                                      Baru
                                     </Badge>
                                   )}
                                 </div>
@@ -673,14 +581,14 @@ export default function Home() {
                         </div>
 
                         {/* Reply Form */}
-                        <div className="p-4 border-t bg-white/80 backdrop-blur">
+                        <div className="p-4 border-t bg-white">
                           <div className="space-y-3">
                             <Textarea
-                              placeholder="Tulis balasan Anda..."
+                              placeholder="Tulis balasan Anda"
                               value={responseText}
                               onChange={(e) => setResponseText(e.target.value)}
                               rows={3}
-                              className="resize-none border-2 focus:border-primary"
+                              className="resize-none focus:border-primary focus:ring-2 focus:ring-primary/20"
                             />
                             <div className="flex justify-end">
                               <Button 
@@ -695,24 +603,25 @@ export default function Home() {
                                   localStorage.setItem(staffKey, JSON.stringify(updatedMessages));
                                   setMessages(updatedMessages);
                                   setSelectedMessage({ ...selectedMessage, response: responseText });
-                                  alert("Respon berhasil disimpan!");
+                                  alert("Balasan berhasil disimpan");
                                 }}
                                 disabled={!responseText.trim()}
-                                className="bg-primary hover:bg-primary/90 px-6"
+                                className="bg-primary hover:bg-primary/90 px-6 font-medium"
                               >
-                                <span className="mr-2">📤</span>
-                                {selectedMessage.response ? 'Update Respon' : 'Kirim Balasan'}
+                                {selectedMessage.response ? 'Perbarui Balasan' : 'Kirim Balasan'}
                               </Button>
                             </div>
                           </div>
                         </div>
                       </div>
                     ) : (
-                      <div className="h-full flex items-center justify-center text-muted-foreground">
+                      <div className="h-full flex items-center justify-center text-slate-500">
                         <div className="text-center">
-                          <div className="text-6xl mb-4">💬</div>
-                          <p className="text-lg font-semibold">Pilih pesan untuk melihat detail</p>
-                          <p className="text-sm mt-2">Klik salah satu pesan di sebelah kiri</p>
+                          <svg className="mx-auto h-16 w-16 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                          </svg>
+                          <p className="text-base font-medium mt-4">Pilih Pesan</p>
+                          <p className="text-sm mt-2">Klik pesan untuk melihat detail dan membalas</p>
                         </div>
                       </div>
                     )}
@@ -728,43 +637,30 @@ export default function Home() {
 
   // Interface untuk MAHASISWA BIASA
   return (
-    <div className="min-h-screen p-4 py-8 bg-gradient-to-br from-[#f5f1e8] via-[#fdfbf7] to-[#f0ebe0] relative overflow-hidden">
-      {/* Animated Background */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl animate-float"></div>
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-accent/5 rounded-full blur-3xl animate-float-delayed"></div>
-      </div>
-
-      <div className="max-w-6xl mx-auto space-y-8 relative z-10">
+    <div className="min-h-screen p-6 bg-slate-50">
+      <div className="max-w-6xl mx-auto space-y-6">
         {/* Header - Profile Pengurus */}
-        <Card className="shadow-2xl border-2 border-primary/30 bg-gradient-to-r from-white/95 via-primary/10 to-white/95 backdrop-blur-xl overflow-hidden relative group">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-primary/10 to-accent/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 group-hover:scale-110 transition-transform duration-1000"></div>
-          <CardHeader className="relative">
-            <div className="flex items-center justify-between flex-wrap gap-6">
-              <div className="flex items-center gap-6">
-                <div className="relative">
-                  <div className="absolute -inset-2 bg-gradient-to-r from-primary to-accent rounded-full blur-xl opacity-40 group-hover:opacity-60 transition-opacity duration-500"></div>
-                  <Avatar className="h-28 w-28 border-4 border-white shadow-2xl ring-4 ring-primary/20 relative">
-                    <AvatarImage src={staffInfo.photo} alt={staffInfo.nama} />
-                    <AvatarFallback className="bg-gradient-to-br from-primary via-primary/90 to-accent text-white text-3xl font-black">
-                      {staffInfo.nama.split(' ').slice(0, 2).map(n => n[0]).join('')}
-                    </AvatarFallback>
-                  </Avatar>
-                  <div className="absolute -bottom-2 -right-2 h-12 w-12 bg-gradient-to-br from-primary to-accent rounded-full border-4 border-white flex items-center justify-center shadow-xl animate-bounce-slow">
-                    <span className="text-xl">✨</span>
-                  </div>
-                </div>
+        <Card className="shadow-sm border border-slate-200">
+          <CardHeader>
+            <div className="flex items-center justify-between flex-wrap gap-4">
+              <div className="flex items-center gap-4">
+                <Avatar className="h-20 w-20 border-2 border-slate-200">
+                  <AvatarImage src={staffInfo.photo} alt={staffInfo.nama} />
+                  <AvatarFallback className="bg-primary text-white text-xl font-semibold">
+                    {staffInfo.nama.split(' ').slice(0, 2).map(n => n[0]).join('')}
+                  </AvatarFallback>
+                </Avatar>
                 <div>
-                  <CardTitle className="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary/90 to-accent mb-2">
+                  <CardTitle className="text-2xl font-bold text-slate-900">
                     {staffInfo.nama}
                   </CardTitle>
-                  <p className="text-muted-foreground text-xl font-semibold mb-3">{staffInfo.jabatan}</p>
-                  <div className="flex gap-2 flex-wrap">
-                    <Badge variant="outline" className="border-primary/30 bg-white/80 text-primary px-4 py-1.5 text-sm font-semibold">
-                      <span className="mr-1">📋</span> NIM: {staffInfo.nim}
+                  <p className="text-slate-600 text-sm mt-1">{staffInfo.jabatan}</p>
+                  <div className="flex gap-2 mt-2">
+                    <Badge variant="outline" className="text-xs font-medium">
+                      NIM: {staffInfo.nim}
                     </Badge>
-                    <Badge className="bg-gradient-to-r from-primary via-primary/95 to-accent text-white shadow-lg px-4 py-1.5 text-sm font-bold">
-                      <span className="mr-1">🏢</span> {getDivisionName(staffInfo.divisi)}
+                    <Badge className="bg-primary text-white text-xs font-medium">
+                      {getDivisionName(staffInfo.divisi)}
                     </Badge>
                   </div>
                 </div>
@@ -777,85 +673,59 @@ export default function Home() {
                   setMessages([]);
                   setNim("");
                 }}
-                className="h-12 px-8 border-2 border-primary/30 hover:bg-primary/10 hover:border-primary font-semibold text-base transition-all duration-300 shadow-md hover:shadow-lg"
+                className="h-10 px-6 font-medium"
               >
-                <span className="mr-2 text-lg">🚪</span>
-                Logout
+                Keluar
               </Button>
             </div>
           </CardHeader>
         </Card>
 
         {/* Messages List - Pesan dari Azzam */}
-        <Card className="shadow-xl border-2 border-primary/10 overflow-hidden">
-          <CardHeader className="bg-gradient-to-r from-primary/5 to-transparent border-b relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-64 h-64 bg-primary/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
-            <div className="relative">
-              <div className="flex items-center gap-4 mb-3">
-                <div className="h-14 w-14 rounded-2xl bg-gradient-to-br from-primary to-primary/80 flex items-center justify-center shadow-lg">
-                  <span className="text-3xl">💌</span>
-                </div>
-                <div>
-                  <CardTitle className="text-3xl text-primary font-bold">Pesan untuk Anda</CardTitle>
-                  <CardDescription className="text-base mt-1">
-                    Pesan dari Azzam (Admin) untuk Anda
-                  </CardDescription>
-                </div>
-              </div>
-              {messages.length > 0 && (
-                <Badge className="bg-primary/10 text-primary border-primary/30">
-                  📨 {messages.length} Pesan Tersimpan
-                </Badge>
-              )}
-            </div>
+        <Card className="shadow-sm border border-slate-200">
+          <CardHeader className="border-b">
+            <CardTitle className="text-xl font-semibold text-slate-900">
+              Pesan untuk Anda
+            </CardTitle>
+            <CardDescription className="text-slate-600 mt-1">
+              Pesan dari Administrator
+            </CardDescription>
           </CardHeader>
           <CardContent className="pt-6">
             {messages.length === 0 ? (
-              <div className="text-center py-20 text-muted-foreground">
-                <div className="text-8xl mb-6">📭</div>
-                <p className="text-2xl font-semibold mb-2">Belum ada pesan</p>
-                <p className="text-base">Anda belum menerima pesan dari Azzam</p>
+              <div className="text-center py-20 text-slate-500">
+                <svg className="mx-auto h-16 w-16 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
+                </svg>
+                <p className="text-lg font-medium mt-4">Belum Ada Pesan</p>
+                <p className="text-sm mt-2">Anda belum menerima pesan</p>
               </div>
             ) : (
-              <div className="space-y-5">
+              <div className="space-y-4">
                 {messages.map((msg, idx) => (
-                  <Card key={idx} className="border-2 border-primary/30 hover:shadow-2xl hover:border-primary/50 hover:-translate-y-1 transition-all duration-300 bg-gradient-to-br from-white via-primary/5 to-transparent overflow-hidden relative group">
-                    <div className="absolute top-0 right-0 w-40 h-40 bg-gradient-to-br from-primary/10 to-accent/5 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-700"></div>
-                    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                    <CardHeader className="pb-4 relative">
+                  <Card key={idx} className="border border-slate-200 hover:shadow-md transition-shadow">
+                    <CardHeader className="pb-3">
                       <div className="flex items-start justify-between gap-4">
-                        <div className="flex items-center gap-4 flex-1">
-                          <div className="relative">
-                            <div className="absolute inset-0 bg-gradient-to-br from-primary to-accent blur-lg opacity-30 group-hover:opacity-50 transition-opacity duration-300"></div>
-                            <div className="h-14 w-14 rounded-2xl bg-gradient-to-br from-primary via-primary/95 to-accent flex items-center justify-center shadow-xl relative">
-                              <span className="text-3xl">👤</span>
-                            </div>
-                          </div>
-                          <div>
-                            <CardTitle className="text-xl text-primary flex items-center gap-2 font-bold mb-1">
-                              <span>Dari: Azzam</span>
-                              <Badge className="bg-accent/20 text-accent border border-accent/30 text-xs px-2 py-0.5">
-                                Admin
-                              </Badge>
-                            </CardTitle>
-                            <CardDescription className="text-sm mt-1 font-medium flex items-center gap-2">
-                              <span className="text-base">📅</span>
-                              {new Date(msg.timestamp).toLocaleString('id-ID', {
-                                weekday: 'long',
-                                year: 'numeric',
-                                month: 'long',
-                                day: 'numeric',
-                                hour: '2-digit',
-                                minute: '2-digit'
-                              })}
-                            </CardDescription>
-                          </div>
+                        <div>
+                          <CardTitle className="text-base font-semibold text-slate-900">
+                            Dari: Administrator
+                          </CardTitle>
+                          <CardDescription className="text-xs mt-1">
+                            {new Date(msg.timestamp).toLocaleString('id-ID', {
+                              weekday: 'long',
+                              year: 'numeric',
+                              month: 'long',
+                              day: 'numeric',
+                              hour: '2-digit',
+                              minute: '2-digit'
+                            })}
+                          </CardDescription>
                         </div>
                       </div>
                     </CardHeader>
-                    <CardContent className="relative">
-                      <div className="bg-gradient-to-br from-white via-white to-primary/5 backdrop-blur-sm rounded-2xl p-6 border-l-4 border-primary shadow-lg group-hover:shadow-xl transition-shadow duration-300">
-                        <p className="text-base leading-relaxed whitespace-pre-wrap text-foreground font-medium">
+                    <CardContent>
+                      <div className="bg-slate-50 rounded-lg p-4 border-l-4 border-primary">
+                        <p className="text-sm leading-relaxed whitespace-pre-wrap text-slate-700">
                           {msg.message}
                         </p>
                       </div>
@@ -868,64 +738,39 @@ export default function Home() {
         </Card>
 
          {/* Form Kirim Pesan ke Azzam */}
-        <Card className="shadow-xl border-2 border-accent/30 overflow-hidden bg-gradient-to-br from-white via-accent/5 to-accent/10">
-          <CardHeader className="border-b bg-gradient-to-r from-accent/10 via-accent/5 to-transparent relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-64 h-64 bg-accent/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
-            <div className="relative">
-              <div className="flex items-center gap-4 mb-4">
-                <div className="relative">
-                  <div className="h-16 w-16 rounded-2xl bg-gradient-to-br from-accent to-accent/80 flex items-center justify-center shadow-lg">
-                    <span className="text-3xl">✍️</span>
-                  </div>
-                  <div className="absolute -bottom-2 -right-2 h-8 w-8 bg-gradient-to-br from-primary to-primary/80 rounded-full border-4 border-white flex items-center justify-center shadow-lg">
-                    <span className="text-xs">💬</span>
-                  </div>
-                </div>
-                <div>
-                  <CardTitle className="text-3xl text-accent mb-1 font-bold">
-                    Ada pesan ga buat Azzam?
-                  </CardTitle>
-                  <CardDescription className="text-base text-foreground/70">
-                    Tulis pesan & kesan kamu untuk Azzam (Admin)
-                  </CardDescription>
-                </div>
-              </div>
-              <Badge className="bg-accent/20 text-accent border-accent/30">
-                💌 Direct Message
-              </Badge>
-            </div>
+        <Card className="shadow-sm border border-slate-200">
+          <CardHeader className="border-b">
+            <CardTitle className="text-xl font-semibold text-slate-900">
+              Kirim Pesan ke Administrator
+            </CardTitle>
+            <CardDescription className="text-slate-600 mt-1">
+              Tulis pesan Anda untuk Administrator
+            </CardDescription>
           </CardHeader>
-          <CardContent className="pt-6 relative">
-            <form onSubmit={handleSendMessageToAdmin} className="space-y-5">
-              <div className="space-y-3">
-                <Label className="text-base font-semibold flex items-center gap-2">
-                  <span className="h-6 w-6 rounded-full bg-accent/10 flex items-center justify-center text-xs">
-                    ✉️
-                  </span>
-                  Pesan Kamu
+          <CardContent className="pt-6">
+            <form onSubmit={handleSendMessageToAdmin} className="space-y-4">
+              <div className="space-y-2">
+                <Label className="text-sm font-medium text-slate-700">
+                  Isi Pesan
                 </Label>
                 <Textarea
-                  placeholder="Tulis pesan kamu di sini..."
+                  placeholder="Tulis pesan Anda di sini"
                   value={adminMessage}
                   onChange={(e) => setAdminMessage(e.target.value)}
                   rows={5}
-                  className="resize-none border-2 border-accent/20 focus:border-accent focus:ring-4 focus:ring-accent/20 rounded-xl"
+                  className="resize-none border-slate-300 focus:border-primary focus:ring-2 focus:ring-primary/20"
                   required
                 />
-                <div className="flex items-center justify-between text-sm text-muted-foreground">
+                <div className="flex items-center justify-between text-xs text-slate-500">
                   <span>{adminMessage.length} karakter</span>
-                  {adminMessage.length > 0 && (
-                    <span className="text-accent font-medium">✓ Siap dikirim</span>
-                  )}
                 </div>
               </div>
               <Button 
                 type="submit"
                 disabled={!adminMessage.trim()}
-                className="w-full h-12 bg-gradient-to-r from-[#2d5f3f] via-[#2d5f3f] to-[#234a32] hover:from-[#234a32] hover:to-[#1a3424] text-white shadow-lg hover:shadow-xl transition-all text-base font-semibold"
+                className="w-full h-10 bg-primary hover:bg-primary/90 font-medium"
               >
-                <span className="mr-2 text-lg">📤</span>
-                Kirim Pesan ke Azzam
+                Kirim Pesan
               </Button>
             </form>
           </CardContent>
