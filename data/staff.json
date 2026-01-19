@@ -1,0 +1,826 @@
+[
+  {
+    "no": 1,
+    "nama": "Ahmad Izzuddin Azzam",
+    "nim": "2300492",
+    "jabatan": "Wakil Ketua BEM",
+    "divisi": "nondivisi",
+    "photo": "/staff/ahmad-izzuddin.jpg"
+  },
+  {
+    "no": 2,
+    "nama": "Nasywa Putri Ramadhina",
+    "nim": "2306173",
+    "jabatan": "Sekretaris Umum 1",
+    "divisi": "nondivisi",
+    "photo": "/staff/nasywa-putri.jpg"
+  },
+  {
+    "no": 3,
+    "nama": "Rifa Nur Habibah",
+    "nim": "2407469",
+    "jabatan": "Sekretaris Umum 2",
+    "divisi": "nondivisi",
+    "photo": "/staff/rifa-nur.jpg"
+  },
+  {
+    "no": 4,
+    "nama": "Aurylia Taffana",
+    "nim": "2303612",
+    "jabatan": "Bendahara Umum 1",
+    "divisi": "nondivisi",
+    "photo": "/staff/aurylia-taffana.jpg"
+  },
+  {
+    "no": 5,
+    "nama": "Virgiani Azali Ishmah",
+    "nim": "2405506",
+    "jabatan": "Bendahara Umum 2",
+    "divisi": "nondivisi",
+    "photo": "/staff/virgiani-azali.jpg"
+  },
+  {
+    "no": 6,
+    "nama": "Muhammad Akhtar Rizki Ramadha",
+    "nim": "2304742",
+    "jabatan": "Ketua Divisi Pengembangan Organisasi",
+    "divisi": "psdm",
+    "photo": "/staff/akhtar-rizki.jpg"
+  },
+  {
+    "no": 7,
+    "nama": "Ahmad Rayki Pahlevi",
+    "nim": "2301596",
+    "jabatan": "Staf Divisi Pengembangan Organisasi",
+    "divisi": "psdm",
+    "photo": "/staff/ahmad-rayki.jpg"
+  },
+  {
+    "no": 8,
+    "nama": "Amanda Devika Hakim",
+    "nim": "2307254",
+    "jabatan": "Staf Divisi Pengembangan Organisasi",
+    "divisi": "psdm",
+    "photo": "/staff/amanda-devika.jpg"
+  },
+  {
+    "no": 9,
+    "nama": "Muhammad Subhan Zaenul Rofi",
+    "nim": "2309255",
+    "jabatan": "Staf Divisi Pengembangan Organisasi",
+    "divisi": "psdm",
+    "photo": "/staff/subhan-zaenul.jpg"
+  },
+  {
+    "no": 10,
+    "nama": "Salwa Khairunnisa",
+    "nim": "2304617",
+    "jabatan": "Staf Divisi Pengembangan Organisasi",
+    "divisi": "psdm",
+    "photo": "/staff/salwa-khairunnisa.jpg"
+  },
+  {
+    "no": 11,
+    "nama": "Vina Salima Mujahida",
+    "nim": "2308107",
+    "jabatan": "Staf Divisi Pengembangan Organisasi",
+    "divisi": "psdm",
+    "photo": "/staff/vina-salima.jpg"
+  },
+  {
+    "no": 12,
+    "nama": "Ariel Hidayatul Faqih",
+    "nim": "2401265",
+    "jabatan": "Staf Divisi Pengembangan Organisasi",
+    "divisi": "psdm",
+    "photo": "/staff/ariel-hidayatul.jpg"
+  },
+  {
+    "no": 13,
+    "nama": "Belva Risma Aydina",
+    "nim": "2405572",
+    "jabatan": "Staf Divisi Pengembangan Organisasi",
+    "divisi": "psdm",
+    "photo": "/staff/belva-risma.jpg"
+  },
+  {
+    "no": 14,
+    "nama": "Dewa Ahmad Septriansyah",
+    "nim": "2401322",
+    "jabatan": "Staf Divisi Pengembangan Organisasi",
+    "divisi": "psdm",
+    "photo": "/staff/dewa-ahmad.jpg"
+  },
+  {
+    "no": 15,
+    "nama": "Dzaky Prima Yoga",
+    "nim": "2404626",
+    "jabatan": "Staf Divisi Pengembangan Organisasi",
+    "divisi": "psdm",
+    "photo": "/staff/dzaky-prima.jpg"
+  },
+  {
+    "no": 16,
+    "nama": "Fakhira Zaafarani Husna",
+    "nim": "2405158",
+    "jabatan": "Staf Divisi Pengembangan Organisasi",
+    "divisi": "psdm",
+    "photo": "/staff/fakhira-zaafarani.jpg"
+  },
+  {
+    "no": 17,
+    "nama": "Farah Maulida",
+    "nim": "2410024",
+    "jabatan": "Staf Divisi Pengembangan Organisasi",
+    "divisi": "psdm",
+    "photo": "/staff/farah-maulida.jpg"
+  },
+  {
+    "no": 18,
+    "nama": "Firda Ridzki Utami",
+    "nim": "2401626",
+    "jabatan": "Staf Divisi Pengembangan Organisasi",
+    "divisi": "psdm",
+    "photo": "/staff/firda-ridzki.jpg"
+  },
+  {
+    "no": 19,
+    "nama": "Khairatul Husna Tartila",
+    "nim": "2400494",
+    "jabatan": "Staf Divisi Pengembangan Organisasi",
+    "divisi": "psdm",
+    "photo": "/staff/khairatul-husna.jpg"
+  },
+  {
+    "no": 20,
+    "nama": "Muhammad Mirza Fayzul Haq",
+    "nim": "2405216",
+    "jabatan": "Staf Divisi Pengembangan Organisasi",
+    "divisi": "psdm",
+    "photo": "/staff/mirza-fayzul.jpg"
+  },
+  {
+    "no": 21,
+    "nama": "Muhammad Raditya Santosa",
+    "nim": "2409461",
+    "jabatan": "Staf Divisi Pengembangan Organisasi",
+    "divisi": "psdm",
+    "photo": "/staff/raditya-santosa.jpg"
+  },
+  {
+    "no": 22,
+    "nama": "Muhammad Romdhon Indra Galuh",
+    "nim": "2403463",
+    "jabatan": "Staf Divisi Pengembangan Organisasi",
+    "divisi": "psdm",
+    "photo": "/staff/romdhon-indra.jpg"
+  },
+  {
+    "no": 23,
+    "nama": "Najmi Alifah Hilmiya",
+    "nim": "2410393",
+    "jabatan": "Staf Divisi Pengembangan Organisasi",
+    "divisi": "psdm",
+    "photo": "/staff/najmi-alifah.jpg"
+  },
+  {
+    "no": 24,
+    "nama": "Muhammad Naufal Arbanin",
+    "nim": "2310850",
+    "jabatan": "Ketua Divisi Penyaluran Minat dan Bakat",
+    "divisi": "senbud",
+    "photo": "/staff/naufal-arbanin.jpg"
+  },
+  {
+    "no": 25,
+    "nama": "Dewi Yanti",
+    "nim": "2303558",
+    "jabatan": "Staf Divisi Penyaluran Minat dan Bakat",
+    "divisi": "senbud",
+    "photo": "/staff/dewi-yanti.jpg"
+  },
+  {
+    "no": 26,
+    "nama": "Muhammad Alfi Fariz",
+    "nim": "2311174",
+    "jabatan": "Staf Divisi Penyaluran Minat dan Bakat",
+    "divisi": "senbud",
+    "photo": "/staff/alfi-fariz.jpg"
+  },
+  {
+    "no": 27,
+    "nama": "Nuansa Bening Aura Jelita",
+    "nim": "2301410",
+    "jabatan": "Staf Divisi Penyaluran Minat dan Bakat",
+    "divisi": "senbud",
+    "photo": "/staff/nuansa-bening.jpg"
+  },
+  {
+    "no": 28,
+    "nama": "Syifa Nur Azizah Suhud",
+    "nim": "2305056",
+    "jabatan": "Staf Divisi Penyaluran Minat dan Bakat",
+    "divisi": "senbud",
+    "photo": "/staff/syifa-nur.jpg"
+  },
+  {
+    "no": 29,
+    "nama": "Afni Alya Putri",
+    "nim": "2401659",
+    "jabatan": "Staf Divisi Penyaluran Minat dan Bakat",
+    "divisi": "senbud",
+    "photo": "/staff/afni-alya.jpg"
+  },
+  {
+    "no": 30,
+    "nama": "Diva Wahyu Nugraha",
+    "nim": "2405885",
+    "jabatan": "Staf Divisi Penyaluran Minat dan Bakat",
+    "divisi": "senbud",
+    "photo": "/staff/diva-wahyu.jpg"
+  },
+  {
+    "no": 31,
+    "nama": "Gherry Alviart",
+    "nim": "2408614",
+    "jabatan": "Staf Divisi Penyaluran Minat dan Bakat",
+    "divisi": "senbud",
+    "photo": "/staff/gherry-alviart.jpg"
+  },
+  {
+    "no": 32,
+    "nama": "Iqbal Rizky Maulana",
+    "nim": "2408622",
+    "jabatan": "Staf Divisi Penyaluran Minat dan Bakat",
+    "divisi": "senbud",
+    "photo": "/staff/iqbal-rizky.jpg"
+  },
+  {
+    "no": 33,
+    "nama": "Kayla Emira Qonitah",
+    "nim": "2400076",
+    "jabatan": "Staf Divisi Penyaluran Minat dan Bakat",
+    "divisi": "senbud",
+    "photo": "/staff/kayla-emira.jpg"
+  },
+  {
+    "no": 34,
+    "nama": "Muhammad Adwar Salman",
+    "nim": "2401539",
+    "jabatan": "Staf Divisi Penyaluran Minat dan Bakat",
+    "divisi": "senbud",
+    "photo": "/staff/adwar-salman.jpg"
+  },
+  {
+    "no": 35,
+    "nama": "Naura Nur Faizah",
+    "nim": "2408352",
+    "jabatan": "Staf Divisi Penyaluran Minat dan Bakat",
+    "divisi": "senbud",
+    "photo": "/staff/naura-nur.jpg"
+  },
+  {
+    "no": 36,
+    "nama": "Nur Abdillah Ifhamuddin",
+    "nim": "2408515",
+    "jabatan": "Staf Divisi Penyaluran Minat dan Bakat",
+    "divisi": "senbud",
+    "photo": "/staff/abdillah-ifhamuddin.jpg"
+  },
+  {
+    "no": 37,
+    "nama": "Raihan Wira Saputra",
+    "nim": "2408680",
+    "jabatan": "Staf Divisi Penyaluran Minat dan Bakat",
+    "divisi": "senbud",
+    "photo": "/staff/raihan-wira.jpg"
+  },
+  {
+    "no": 38,
+    "nama": "Raisyah Alika Salam",
+    "nim": "2409514",
+    "jabatan": "Staf Divisi Penyaluran Minat dan Bakat",
+    "divisi": "senbud",
+    "photo": "/staff/raisyah-alika.jpg"
+  },
+  {
+    "no": 39,
+    "nama": "Salsabila Ramadhani Hasan",
+    "nim": "2406682",
+    "jabatan": "Staf Divisi Penyaluran Minat dan Bakat",
+    "divisi": "senbud",
+    "photo": "/staff/salsabila-ramadhani.jpg"
+  },
+  {
+    "no": 40,
+    "nama": "Muhammad Ridho Fajri",
+    "nim": "2308372",
+    "jabatan": "Ketua Divisi Komunikasi Teknologi dan Informasi",
+    "divisi": "kominfo",
+    "photo": "/staff/ridho-fajri.jpg"
+  },
+  {
+    "no": 41,
+    "nama": "Cynthia Hasna Mazaya",
+    "nim": "2300408",
+    "jabatan": "Staf Divisi Komunikasi Teknologi dan Informasi",
+    "divisi": "kominfo",
+    "photo": "/staff/cynthia-hasna.jpg"
+  },
+  {
+    "no": 42,
+    "nama": "Muhammad Daffa Rizmawan Harahap",
+    "nim": "2310083",
+    "jabatan": "Staf Divisi Komunikasi Teknologi dan Informasi",
+    "divisi": "kominfo",
+    "photo": "/staff/daffa-rizmawan.jpg"
+  },
+  {
+    "no": 43,
+    "nama": "Nabila Hermala Putri",
+    "nim": "2302013",
+    "jabatan": "Staf Divisi Komunikasi Teknologi dan Informasi",
+    "divisi": "kominfo",
+    "photo": "/staff/nabila-hermala.jpg"
+  },
+  {
+    "no": 44,
+    "nama": "Naufal Najib Arif",
+    "nim": "2310996",
+    "jabatan": "Staf Divisi Komunikasi Teknologi dan Informasi",
+    "divisi": "kominfo",
+    "photo": "/staff/naufal-najib.jpg"
+  },
+  {
+    "no": 45,
+    "nama": "Rakha Akhyara",
+    "nim": "2300990",
+    "jabatan": "Staf Divisi Komunikasi Teknologi dan Informasi",
+    "divisi": "kominfo",
+    "photo": "/staff/rakha-akhyara.jpg"
+  },
+  {
+    "no": 46,
+    "nama": "Rasendriya Andhika",
+    "nim": "2305309",
+    "jabatan": "Staf Divisi Komunikasi Teknologi dan Informasi",
+    "divisi": "kominfo",
+    "photo": "/staff/rasendriya-andhika.jpg"
+  },
+  {
+    "no": 47,
+    "nama": "Dewi Mustika Hidayah",
+    "nim": "2402353",
+    "jabatan": "Staf Divisi Komunikasi Teknologi dan Informasi",
+    "divisi": "kominfo",
+    "photo": "/staff/dewi-mustika.jpg"
+  },
+  {
+    "no": 48,
+    "nama": "Dhendi Syafa Athallah Putra",
+    "nim": "2405380",
+    "jabatan": "Staf Divisi Komunikasi Teknologi dan Informasi",
+    "divisi": "kominfo",
+    "photo": "/staff/dhendi-syafa.jpg"
+  },
+  {
+    "no": 49,
+    "nama": "Dicka Fahrunaldo",
+    "nim": "2407846",
+    "jabatan": "Staf Divisi Komunikasi Teknologi dan Informasi",
+    "divisi": "kominfo",
+    "photo": "/staff/dicka-fahrunaldo.jpg"
+  },
+  {
+    "no": 50,
+    "nama": "Dzaka Musyaffa Hidayat",
+    "nim": "2404913",
+    "jabatan": "Staf Divisi Komunikasi Teknologi dan Informasi",
+    "divisi": "kominfo",
+    "photo": "/staff/dzaka-musyaffa.jpg"
+  },
+  {
+    "no": 51,
+    "nama": "Kaisya Azzahra Salsabila",
+    "nim": "2405436",
+    "jabatan": "Staf Divisi Komunikasi Teknologi dan Informasi",
+    "divisi": "kominfo",
+    "photo": "/staff/kaisya-azzahra.jpg"
+  },
+  {
+    "no": 52,
+    "nama": "Mahendra Devid Putra Anwar",
+    "nim": "2407792",
+    "jabatan": "Staf Divisi Komunikasi Teknologi dan Informasi",
+    "divisi": "kominfo",
+    "photo": "/staff/mahendra-devid.jpg"
+  },
+  {
+    "no": 53,
+    "nama": "Mochammad Azka Basria",
+    "nim": "2405170",
+    "jabatan": "Staf Divisi Komunikasi Teknologi dan Informasi",
+    "divisi": "kominfo",
+    "photo": "/staff/azka-basria.jpg"
+  },
+  {
+    "no": 54,
+    "nama": "Muhammad Fittra Novria Rizky",
+    "nim": "2411481",
+    "jabatan": "Staf Divisi Komunikasi Teknologi dan Informasi",
+    "divisi": "kominfo",
+    "photo": "/staff/fittra-novria.jpg"
+  },
+  {
+    "no": 55,
+    "nama": "Muhiban Fadlan Nursaid",
+    "nim": "2400382",
+    "jabatan": "Staf Divisi Komunikasi Teknologi dan Informasi",
+    "divisi": "kominfo",
+    "photo": "/staff/muhiban-fadlan.jpg"
+  },
+  {
+    "no": 56,
+    "nama": "Nayla Amelia Zahra",
+    "nim": "2401854",
+    "jabatan": "Staf Divisi Komunikasi Teknologi dan Informasi",
+    "divisi": "kominfo",
+    "photo": "/staff/nayla-amelia.jpg"
+  },
+  {
+    "no": 57,
+    "nama": "Nur Azizah Santoso",
+    "nim": "2400655",
+    "jabatan": "Staf Divisi Komunikasi Teknologi dan Informasi",
+    "divisi": "kominfo",
+    "photo": "/staff/nur-azizah.jpg"
+  },
+  {
+    "no": 58,
+    "nama": "Alvyn Hadrian Nugraha",
+    "nim": "2300498",
+    "jabatan": "Ketua Divisi Ekonomi dan Bisnis",
+    "divisi": "kewirus",
+    "photo": "/staff/alvyn-hadrian.jpg"
+  },
+  {
+    "no": 59,
+    "nama": "Ma'rifatu Ambiya",
+    "nim": "2300822",
+    "jabatan": "Staf Divisi Ekonomi dan Bisnis",
+    "divisi": "kewirus",
+    "photo": "/staff/marifatu-ambiya.jpg"
+  },
+  {
+    "no": 60,
+    "nama": "Sandy Achmad Nugraha",
+    "nim": "2309844",
+    "jabatan": "Staf Divisi Ekonomi dan Bisnis",
+    "divisi": "kewirus",
+    "photo": "/staff/sandy-achmad.jpg"
+  },
+  {
+    "no": 61,
+    "nama": "Dinda Natania Sugara",
+    "nim": "2311697",
+    "jabatan": "Staf Divisi Ekonomi dan Bisnis",
+    "divisi": "kewirus",
+    "photo": "/staff/dinda-natania.jpg"
+  },
+  {
+    "no": 62,
+    "nama": "Ayu Mutia",
+    "nim": "2402238",
+    "jabatan": "Staf Divisi Ekonomi dan Bisnis",
+    "divisi": "kewirus",
+    "photo": "/staff/ayu-mutia.jpg"
+  },
+  {
+    "no": 63,
+    "nama": "Fedora Ariefa Ardian",
+    "nim": "2400758",
+    "jabatan": "Staf Divisi Ekonomi dan Bisnis",
+    "divisi": "kewirus",
+    "photo": "/staff/fedora-ariefa.jpg"
+  },
+  {
+    "no": 64,
+    "nama": "Najmi Nur Layaliani",
+    "nim": "2407671",
+    "jabatan": "Staf Divisi Ekonomi dan Bisnis",
+    "divisi": "kewirus",
+    "photo": "/staff/najmi-nur.jpg"
+  },
+  {
+    "no": 65,
+    "nama": "Nayla Tiani Putri",
+    "nim": "2403800",
+    "jabatan": "Staf Divisi Ekonomi dan Bisnis",
+    "divisi": "kewirus",
+    "photo": "/staff/nayla-tiani.jpg"
+  },
+  {
+    "no": 66,
+    "nama": "Raffie Arsy Ananda",
+    "nim": "2405916",
+    "jabatan": "Staf Divisi Ekonomi dan Bisnis",
+    "divisi": "kewirus",
+    "photo": "/staff/raffie-arsy.jpg"
+  },
+  {
+    "no": 67,
+    "nama": "Rafi Ahmad Al Farisi",
+    "nim": "2409829",
+    "jabatan": "Staf Divisi Ekonomi dan Bisnis",
+    "divisi": "kewirus",
+    "photo": "/staff/rafi-ahmad.jpg"
+  },
+  {
+    "no": 68,
+    "nama": "Ryan Rahmawan",
+    "nim": "2402277",
+    "jabatan": "Staf Divisi Ekonomi dan Bisnis",
+    "divisi": "kewirus",
+    "photo": "/staff/ryan-rahmawan.jpg"
+  },
+  {
+    "no": 69,
+    "nama": "Hafizh Rasyid Ridha",
+    "nim": "2309549",
+    "jabatan": "Ketua Divisi Pendidikan dan Pelatihan",
+    "divisi": "litbang",
+    "photo": "/staff/hafizh-rasyid.jpg"
+  },
+  {
+    "no": 70,
+    "nama": "Alya Nurul Hanifah",
+    "nim": "2309131",
+    "jabatan": "Staf Divisi Pendidikan dan Pelatihan",
+    "divisi": "litbang",
+    "photo": "/staff/alya-nurul.jpg"
+  },
+  {
+    "no": 71,
+    "nama": "Tyka Yulistriany",
+    "nim": "2306838",
+    "jabatan": "Staf Divisi Pendidikan dan Pelatihan",
+    "divisi": "litbang",
+    "photo": "/staff/tyka-yulistriany.jpg"
+  },
+  {
+    "no": 72,
+    "nama": "Daffa Dhiyaa Candra",
+    "nim": "2404286",
+    "jabatan": "Staf Divisi Pendidikan dan Pelatihan",
+    "divisi": "litbang",
+    "photo": "/staff/daffa-dhiyaa.jpg"
+  },
+  {
+    "no": 73,
+    "nama": "Muhammad Rangga Nur Praditha",
+    "nim": "2400297",
+    "jabatan": "Staf Divisi Pendidikan dan Pelatihan",
+    "divisi": "litbang",
+    "photo": "/staff/rangga-nur.jpg"
+  },
+  {
+    "no": 74,
+    "nama": "Nadzalla Diva Asmara Sutedja",
+    "nim": "2408095",
+    "jabatan": "Staf Divisi Pendidikan dan Pelatihan",
+    "divisi": "litbang",
+    "photo": "/staff/nadzalla-diva.jpg"
+  },
+  {
+    "no": 75,
+    "nama": "Nafis Asyakir Anjar",
+    "nim": "2407915",
+    "jabatan": "Staf Divisi Pendidikan dan Pelatihan",
+    "divisi": "litbang",
+    "photo": "/staff/nafis-asyakir.jpg"
+  },
+  {
+    "no": 76,
+    "nama": "Naufal Zahid",
+    "nim": "2405787",
+    "jabatan": "Staf Divisi Pendidikan dan Pelatihan",
+    "divisi": "litbang",
+    "photo": "/staff/naufal-zahid.jpg"
+  },
+  {
+    "no": 77,
+    "nama": "Rifa Muhammad Danindra",
+    "nim": "2405981",
+    "jabatan": "Staf Divisi Pendidikan dan Pelatihan",
+    "divisi": "litbang",
+    "photo": "/staff/rifa-muhammad.jpg"
+  },
+  {
+    "no": 78,
+    "nama": "Selika Kanajmi",
+    "nim": "2408495",
+    "jabatan": "Staf Divisi Pendidikan dan Pelatihan",
+    "divisi": "litbang",
+    "photo": "/staff/selika-kanajmi.jpg"
+  },
+  {
+    "no": 79,
+    "nama": "Vivi Agustina Suryana",
+    "nim": "2400456",
+    "jabatan": "Staf Divisi Pendidikan dan Pelatihan",
+    "divisi": "litbang",
+    "photo": "/staff/vivi-agustina.jpg"
+  },
+  {
+    "no": 80,
+    "nama": "Ghefira Azka Fatharani",
+    "nim": "2309179",
+    "jabatan": "Ketua Divisi Kerohanian",
+    "divisi": "medinfo",
+    "photo": "/staff/ghefira-azka.jpg"
+  },
+  {
+    "no": 81,
+    "nama": "Aam Trianawati",
+    "nim": "2305680",
+    "jabatan": "Staf Divisi Kerohanian",
+    "divisi": "medinfo",
+    "photo": "/staff/aam-trianawati.jpg"
+  },
+  {
+    "no": 82,
+    "nama": "Rina Tri Agustianis",
+    "nim": "2304041",
+    "jabatan": "Staf Divisi Kerohanian",
+    "divisi": "medinfo",
+    "photo": "/staff/rina-tri.jpg"
+  },
+  {
+    "no": 83,
+    "nama": "Duan Jhon Steven Sinaga",
+    "nim": "2406964",
+    "jabatan": "Staf Divisi Kerohanian",
+    "divisi": "medinfo",
+    "photo": "/staff/duan-jhon.jpg"
+  },
+  {
+    "no": 84,
+    "nama": "Julia Rahmawati",
+    "nim": "2400742",
+    "jabatan": "Staf Divisi Kerohanian",
+    "divisi": "medinfo",
+    "photo": "/staff/julia-rahmawati.jpg"
+  },
+  {
+    "no": 85,
+    "nama": "Khusnul Nadhiva",
+    "nim": "2404193",
+    "jabatan": "Staf Divisi Kerohanian",
+    "divisi": "medinfo",
+    "photo": "/staff/khusnul-nadhiva.jpg"
+  },
+  {
+    "no": 86,
+    "nama": "Lutfiyanti Hegar Astuti",
+    "nim": "2406635",
+    "jabatan": "Staf Divisi Kerohanian",
+    "divisi": "medinfo",
+    "photo": "/staff/lutfiyanti-hegar.jpg"
+  },
+  {
+    "no": 87,
+    "nama": "Misyel Aulia Azahara",
+    "nim": "2406627",
+    "jabatan": "Staf Divisi Kerohanian",
+    "divisi": "medinfo",
+    "photo": "/staff/misyel-aulia.jpg"
+  },
+  {
+    "no": 88,
+    "nama": "Muhammad Maulana Adrian",
+    "nim": "2408647",
+    "jabatan": "Staf Divisi Kerohanian",
+    "divisi": "medinfo",
+    "photo": "/staff/maulana-adrian.jpg"
+  },
+  {
+    "no": 89,
+    "nama": "Nopsandi Natanael",
+    "nim": "2405303",
+    "jabatan": "Staf Divisi Kerohanian",
+    "divisi": "medinfo",
+    "photo": "/staff/nopsandi-natanael.jpg"
+  },
+  {
+    "no": 90,
+    "nama": "Rianti Agustini",
+    "nim": "2400146",
+    "jabatan": "Staf Divisi Kerohanian",
+    "divisi": "medinfo",
+    "photo": "/staff/rianti-agustini.jpg"
+  },
+  {
+    "no": 91,
+    "nama": "Siti Agisna",
+    "nim": "2404151",
+    "jabatan": "Staf Divisi Kerohanian",
+    "divisi": "medinfo",
+    "photo": "/staff/siti-agisna.jpg"
+  },
+  {
+    "no": 92,
+    "nama": "Tsalitsa Nuril Syabina",
+    "nim": "2312265",
+    "jabatan": "Ketua Divisi Advokasi Sosial Politik",
+    "divisi": "adkesma",
+    "photo": "/staff/tsalitsa-nuril.jpg"
+  },
+  {
+    "no": 93,
+    "nama": "Muhamad Wahyu Darmawan",
+    "nim": "2305997",
+    "jabatan": "Staf Divisi Advokasi Sosial Politik",
+    "divisi": "adkesma",
+    "photo": "/staff/wahyu-darmawan.jpg"
+  },
+  {
+    "no": 94,
+    "nama": "Naufal Fakhri Al-Najieb",
+    "nim": "2309648",
+    "jabatan": "Staf Divisi Advokasi Sosial Politik",
+    "divisi": "adkesma",
+    "photo": "/staff/naufal-fakhri.jpg"
+  },
+  {
+    "no": 95,
+    "nama": "Rahmat Taufik Al Hidayah",
+    "nim": "2300414",
+    "jabatan": "Staf Divisi Advokasi Sosial Politik",
+    "divisi": "adkesma",
+    "photo": "/staff/rahmat-taufik.jpg"
+  },
+  {
+    "no": 96,
+    "nama": "Zaenal Rifa'i Saepudin",
+    "nim": "2301333",
+    "jabatan": "Staf Divisi Advokasi Sosial Politik",
+    "divisi": "adkesma",
+    "photo": "/staff/zaenal-rifai.jpg"
+  },
+  {
+    "no": 97,
+    "nama": "Hanif Habiburrahman",
+    "nim": "2408249",
+    "jabatan": "Staf Divisi Advokasi Sosial Politik",
+    "divisi": "adkesma",
+    "photo": "/staff/hanif-habiburrahman.jpg"
+  },
+  {
+    "no": 98,
+    "nama": "Mohammad Mudrik Mujayyin",
+    "nim": "2407142",
+    "jabatan": "Staf Divisi Advokasi Sosial Politik",
+    "divisi": "adkesma",
+    "photo": "/staff/mudrik-mujayyin.jpg"
+  },
+  {
+    "no": 99,
+    "nama": "Naufal Rizki Rabbani",
+    "nim": "2410946",
+    "jabatan": "Staf Divisi Advokasi Sosial Politik",
+    "divisi": "adkesma",
+    "photo": "/staff/naufal-rizki.jpg"
+  },
+  {
+    "no": 100,
+    "nama": "Niha April Miani",
+    "nim": "2402567",
+    "jabatan": "Staf Divisi Advokasi Sosial Politik",
+    "divisi": "adkesma",
+    "photo": "/staff/niha-april.jpg"
+  },
+  {
+    "no": 101,
+    "nama": "Putri Ramadhani",
+    "nim": "2410975",
+    "jabatan": "Staf Divisi Advokasi Sosial Politik",
+    "divisi": "adkesma",
+    "photo": "/staff/putri-ramadhani.jpg"
+  },
+  {
+    "no": 102,
+    "nama": "Shakila Aulia Nurrul Rohman",
+    "nim": "2403086",
+    "jabatan": "Staf Divisi Advokasi Sosial Politik",
+    "divisi": "adkesma",
+    "photo": "/staff/shakila-aulia.jpg"
+  },
+  {
+    "no": 103,
+    "nama": "Zulfian Rais Almanshur",
+    "nim": "2400325",
+    "jabatan": "Staf Divisi Advokasi Sosial Politik",
+    "divisi": "adkesma",
+    "photo": "/staff/zulfian-rais.jpg"
+  }
+]

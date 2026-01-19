@@ -1,0 +1,50 @@
+[
+  {
+    "id": "psdm",
+    "name": "PSDM",
+    "fullName": "Pengembangan Sumber Daya Mahasiswa",
+    "image": "/divisions/psdm.svg"
+  },
+  {
+    "id": "adkesma",
+    "name": "ADKESMA",
+    "fullName": "Advokasi Kesejahteraan Mahasiswa",
+    "image": "/divisions/adkesma.svg"
+  },
+  {
+    "id": "medinfo",
+    "name": "MEDINFO",
+    "fullName": "Media dan Informasi",
+    "image": "/divisions/medinfo.svg"
+  },
+  {
+    "id": "kewirus",
+    "name": "KEWIRUS",
+    "fullName": "Kewirausahaan",
+    "image": "/divisions/kewirus.svg"
+  },
+  {
+    "id": "kominfo",
+    "name": "KOMINFO",
+    "fullName": "Komunikasi dan Informasi",
+    "image": "/divisions/kominfo.svg"
+  },
+  {
+    "id": "litbang",
+    "name": "LITBANG",
+    "fullName": "Penelitian dan Pengembangan",
+    "image": "/divisions/litbang.svg"
+  },
+  {
+    "id": "senbud",
+    "name": "SENBUD",
+    "fullName": "Seni dan Budaya",
+    "image": "/divisions/senbud.svg"
+  },
+  {
+    "id": "nondivisi",
+    "name": "Non-Divisi",
+    "fullName": "Staff Non-Divisi",
+    "image": "/divisions/nondivisi.svg"
+  }
+]
