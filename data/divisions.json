@@ -1,49 +1,49 @@
 [
   {
-    "id": "psdm",
-    "name": "PSDM",
-    "fullName": "Pengembangan Sumber Daya Mahasiswa",
-    "image": "/divisions/psdm.svg"
+    "id": "divadsospol",
+    "name": "Divadsospol",
+    "fullName": "Divisi Advokasi Sosial Politik",
+    "image": "/divisions/divadsospol.svg"
   },
   {
-    "id": "adkesma",
-    "name": "ADKESMA",
-    "fullName": "Advokasi Kesejahteraan Mahasiswa",
-    "image": "/divisions/adkesma.svg"
+    "id": "divdiklat",
+    "name": "Divdiklat",
+    "fullName": "Divisi Pendidikan dan Pelatihan",
+    "image": "/divisions/divdiklat.svg"
   },
   {
-    "id": "medinfo",
-    "name": "MEDINFO",
-    "fullName": "Media dan Informasi",
-    "image": "/divisions/medinfo.svg"
+    "id": "divroh",
+    "name": "Divroh",
+    "fullName": "Divisi Kerohanian",
+    "image": "/divisions/divroh.svg"
   },
   {
-    "id": "kewirus",
-    "name": "KEWIRUS",
-    "fullName": "Kewirausahaan",
-    "image": "/divisions/kewirus.svg"
+    "id": "divkomtekinfo",
+    "name": "Divkomtekinfo",
+    "fullName": "Divisi Komunikasi Teknologi Informasi",
+    "image": "/divisions/divkomtekinfo.svg"
   },
   {
-    "id": "kominfo",
-    "name": "KOMINFO",
-    "fullName": "Komunikasi dan Informasi",
-    "image": "/divisions/kominfo.svg"
+    "id": "dpmb",
+    "name": "DPMB",
+    "fullName": "Departemen Pengembangan Minat dan Bakat",
+    "image": "/divisions/dpmb.svg"
   },
   {
-    "id": "litbang",
-    "name": "LITBANG",
-    "fullName": "Penelitian dan Pengembangan",
-    "image": "/divisions/litbang.svg"
+    "id": "dpo",
+    "name": "DPO",
+    "fullName": "Departemen Pengabdian dan Olahraga",
+    "image": "/divisions/dpo.svg"
   },
   {
-    "id": "senbud",
-    "name": "SENBUD",
-    "fullName": "Seni dan Budaya",
-    "image": "/divisions/senbud.svg"
+    "id": "divekobis",
+    "name": "Divekobis",
+    "fullName": "Divisi Ekonomi dan Bisnis",
+    "image": "/divisions/divekobis.svg"
   },
   {
     "id": "nondivisi",
-    "name": "Non-Divisi",
+    "name": "Nondivisi",
     "fullName": "Staff Non-Divisi",
     "image": "/divisions/nondivisi.svg"
   }
