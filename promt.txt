@@ -1,0 +1,21 @@
+Saya mau membuat website untuk surat pesan saya ke pengurus BEM KEMAKOM Kabinet tumbuhAsa
+Disini saya ingin membuat kaya website untuk input nim gitu
+
+baru nanti ke halaman buat pesan dan kesan dia
+
+nah nanti tuh ada 7 Divisi, dan 1 nondivisi
+yang dimana saya akan mengolah data nama, divisi, dan pesan buat dia
+
+dan bisa mmeberikan respon balik gitu, nanti bentuknya ketika dia update dari json yang adanya
+jadi jsonnya, ada nama, divisi, pesan, dan respon dia (awalnya ksoong, nanti pas dia ngisi ajdi keisi)
+
+Nah bentukan websitenya, kaya website
+tumbuhasa/public/image1.png
+ada color paletnya disini
+
+dan ada warna juga dari
+tumbuhasa/public/image2.png
+
+nanti sama di halaman pesan teh, ada card foto (nanti buatin si file foto fotonya yah)
+
+
