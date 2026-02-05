@@ -798,7 +798,7 @@ export default function Home() {
               Barangkali pesan untuk Azzam?
             </CardTitle>
             <CardDescription className="text-slate-600 mt-1">
-              Hubungi via Instagram
+              Check Postingan yaa ^^
             </CardDescription>
           </CardHeader>
           <CardContent className="pt-6">
