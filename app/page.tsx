@@ -374,7 +374,7 @@ export default function Home() {
                     <p className="text-slate-600 text-sm mt-1">{staffInfo.jabatan}</p>
                     <div className="flex gap-2 mt-2">
                       <Badge className="bg-primary text-white font-medium">
-                        Administrator
+                        Azzam
                       </Badge>
                     </div>
                   </div>
@@ -742,7 +742,7 @@ export default function Home() {
               Pesan untuk Anda
             </CardTitle>
             <CardDescription className="text-slate-600 mt-1">
-              Pesan dari Administrator
+              Pesan dari Azzam
             </CardDescription>
           </CardHeader>
           <CardContent className="pt-6">
@@ -762,7 +762,7 @@ export default function Home() {
                       <div className="flex items-start justify-between gap-4">
                         <div>
                           <CardTitle className="text-base font-semibold text-slate-900">
-                            Dari: Administrator
+                            Dari: Azzam
                           </CardTitle>
                           <CardDescription className="text-xs mt-1">
                             {new Date(msg.timestamp).toLocaleString('id-ID', {
@@ -795,10 +795,10 @@ export default function Home() {
         <Card className="shadow-sm border border-slate-200">
           <CardHeader className="border-b">
             <CardTitle className="text-xl font-semibold text-slate-900">
-              Kirim Pesan ke Administrator
+              Kirim Pesan ke Azzam
             </CardTitle>
             <CardDescription className="text-slate-600 mt-1">
-              Tulis pesan Anda untuk Administrator
+              Tulis pesan Anda untuk Azzam
             </CardDescription>
           </CardHeader>
           <CardContent className="pt-6">
