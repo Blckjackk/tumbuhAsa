@@ -803,7 +803,7 @@ export default function Home() {
           </CardHeader>
           <CardContent className="pt-6">
             <a 
-              href="https://www.instagram.com/aizzaam_" 
+              href="https://www.instagram.com/p/DUXmenkE8sZ/?img_index=1" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-3 w-full h-12 bg-gradient-to-r from-purple-600 via-pink-600 to-orange-500 hover:from-purple-700 hover:via-pink-700 hover:to-orange-600 text-white font-semibold rounded-lg transition-all shadow-md hover:shadow-lg transform hover:scale-[1.02]"
