@@ -54,20 +54,45 @@ export default function Home() {
 
   const ADMIN_NIM = "2300492";
 
-  // Fetch data from API
+  // Fetch data from API and load messages from JSON
   useEffect(() => {
     async function fetchData() {
       try {
-        const [staffRes, divisionsRes] = await Promise.all([
+        const [staffRes, divisionsRes, messagesRes] = await Promise.all([
           fetch('/api/staff'),
-          fetch('/api/divisions')
+          fetch('/api/divisions'),
+          fetch('/data/messages.json')
         ]);
         
         const staff = await staffRes.json();
         const divisions = await divisionsRes.json();
+        const messagesData = await messagesRes.json();
         
         setStaffData(staff);
         setDivisionsData(divisions);
+
+        // Load messages dari JSON ke localStorage jika belum ada
+        messagesData.forEach((msg: MessageData) => {
+          if (msg.message && msg.message.trim() !== "") {
+            const staffKey = `staff_${msg.staffNim}`;
+            const existingMessages = JSON.parse(localStorage.getItem(staffKey) || "[]");
+            
+            // Cek apakah pesan ini sudah ada (berdasarkan nim dan message)
+            const isDuplicate = existingMessages.some(
+              (existing: MessageData) => 
+                existing.nim === msg.nim && 
+                existing.message === msg.message
+            );
+            
+            if (!isDuplicate) {
+              existingMessages.push({
+                ...msg,
+                timestamp: msg.timestamp || new Date().toISOString()
+              });
+              localStorage.setItem(staffKey, JSON.stringify(existingMessages));
+            }
+          }
+        });
       } catch (error) {
         console.error('Failed to fetch data:', error);
       } finally {
