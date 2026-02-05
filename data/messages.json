@@ -1,1 +1,826 @@
-[]
+[
+  {
+    "nim": "2300492",
+    "staffNim": "2300492",
+    "staffName": "Ahmad Izzuddin Azzam",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2306173",
+    "staffNim": "2306173",
+    "staffName": "Nasywa Putri Ramadhina",
+    "message": "Hallooo Nasyyy, sekum terbaik urang, terimakasih banyak yaa udah jadi sekre yang sangat proaktif ga diminta tbtb jadi, trus ga pernah keliatan ngeluh ama jobdesk sekretaris yang qc qc qc trus hahaha, selamat yaaa udah menyelesaikan tugas sekum 1 nya, dan makasii banyak udah jadi ibunya riri di nondiv, semangattt buat p3knya nasyy, semoga ga ketemu anak nakal di sekolahan ya hahahaha, intinya nuhunn pisan bantuannya nasyyy, goodjob!!",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2407469",
+    "staffNim": "2407469",
+    "staffName": "Rifa Nur Habibah",
+    "message": "Allooo ririw, adik sekum aku, gimana promnetnya ri? semoga lancar hahaha, jangan lupa belajar git nya woi biar jago ngodingnya, btw makasii banyakk yaa sudah mau jadi sekum 2 tumbuhAsa, banyak banget yang udah kamu bantu buat TumbuhAsa dan makasi juga udah jadi riri yang super happy dimanapun kondisinya, klo ga ada riri, hahaha keanya eta grup isinya marah urg brantem ama si jul doang dah awodkaodk, btw semangatt yaa ririi next periode (kalau jadi xixi), semoga dilancarkan yaa smt smt selanjutnya juga",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2303612",
+    "staffNim": "2303612",
+    "staffName": "Aurylia Taffana",
+    "message": "ekhm haloo orill, apa kabar? sepi ga wa nya awodkaowk, ga deh maneh mah sibuk, btw urg mau ngucapin nuhun pisan ya rill, klo di gathering kemarin \"terimakasih YA ORILL\" awdaok tpi beneran urg mau makasih udah mau jadi bendahara umum 2, yang awalnya jir ga mau, ternyata salaman ama julle effectawodkawodk, nuhun ges jadi bendahara galak buat audit keuangan kemakom, buat planning keuangan selama se periode, dan tentunya banyak proaktifnya ketika ga diminta tbtb udah selesai weh, lancar lancar p3knya ril, semoga dimudahkan yaaa, cepet gera nyari pacar biar ga ama nasy wae",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2405506",
+    "staffNim": "2405506",
+    "staffName": "Virgiani Azali Ishmah",
+    "message": "nungguin surat ya gi? aodkwaokdwa, halloo gigii, si vokalis nondip (jadi kapan kita nyanyi lagi??), terimakasih yaa sudah mau mengiyakan ajakan auryl, dan udah mau jadi partner oril di bendahara, makasii banyakk udah nurut ama jule klo diminta sesuatu xixixi, kan buat bekal gigi jugaa barangkali sekarang jadi bendum 1 yakannn hahaha,ssemangatt yaa gigi next semesternyaa, jangan lupaaa latihannn nyanyi biar juara 1 parampa ixixixixi, semangattt gigigi",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2304742",
+    "staffNim": "2304742",
+    "staffName": "Muhammad Akhtar Rizki Ramadha",
+    "message": "Halo masbro akhtar, kadiv DPO urang, nuhun ges jadi kadiv yg mengusahakan segalanya walau dinamika periode sekarang sangat sangat membagongkan hahaha, nuhun ges jadi kadiv yg proaktif, inisiatif, dan bertanggung jawab atas divisinya, rapat terbanyak dipegang maneh, brrti emg planning rapat udah kejalan baik, udah ngebantu banyak juga buat urang sama jul ngerancang kaderisasi yang walale sekali, semangat es magangnya, mugi dimudahkan segala uruusannya, langgeng weh maneh yaaa tong cepet teuing eta wkwkwk, semangatt es next semesternyan nuhunn pengalamannya",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2301596",
+    "staffNim": "2301596",
+    "staffName": "Ahmad Rayki Pahlevi",
+    "message": "Jusyooo, ai shibal, halo rayki, apa kabar brok, udh ga litbang litbang lagi ya ayeuna mah, nuhun yaa es ges jadi kabiro litbang yang nemenin mentoring, upgrading, dan lain sebagainya, nuhun ges bawakan nyaman at least ke anggota biro maneh, lancar lancar magangnya ess, semoga dimudahkan yaaa segala urusannya",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2307254",
+    "staffNim": "2307254",
+    "staffName": "Amanda Devika Hakim",
+    "message": "Halooo mandaa, first time ikut bem kabinet sekarang yaa brrtii hehehe, makasii banyak yaa udah mau mengiyakan ajakan jadi bagian dari bem, mau nemenin pina kah, atau mau join bem, apapun alasannya makasi banyak yaa udah bisa menemani di kabinet sekarang, lancar lancar yaa manda buat p3knya, semoga dimudahkan segala urusannya, nuhunn yaaa mandaa",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2309255",
+    "staffNim": "2309255",
+    "staffName": "Muhammad Subhan Zaenul Rofi",
+    "message": "Halo han, apa kabss bro, emm urang mau ngucapin terimakasih banyak yaa ges meng iyakan ajakan 2 periode, walau banyak sekali bak bik  buk di dpo sekarnag, tapi urang banyakk banyak makasih ke maneh udah mau bergabung lagi untuk membantu dan membersamai tenttunya, klo maneh ama manda ga masuk, maybe pina juga ngerasa sendirian dan belum tentu mau ikut lagi di periode sekarang, btw lancar lancar yaa p3knyaa ess, semoga dimudahkan p3knya, jan cilok han wkwk",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2304617",
+    "staffNim": "2304617",
+    "staffName": "Salwa Khairunnisa",
+    "message": "halo wawawi atlet basket reo urang, makasii banyak udah mau bergabung di DPO 2 periode, nuhun ges jadi bagian dari dpo yang membantu banyak hal, semangattt yaa wawawi buat p3knya, semoga dimudahkan segala urusannya, lancar lancar yaa wawawi, btw jangan bt lagi yaa aowdkawodk, dpo nya udahan ><",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2308107",
+    "staffNim": "2308107",
+    "staffName": "Vina Salima Mujahida",
+    "message": "halooo pin pin pin, kabiro terakhir yang mengiyakan, nuhun pisan yaaa, klo ga ada maneh sepertinya bentukan bem sekarang ga ada kabiro, tapi wakadiv, tpi urg mau ngucapin banyak terimakasih yaa, udah ngebersamain dpo, apalagi tiap prokernya, anak anak msdm pada bilang, maneh sebagai sc selalu ngebersamain mereka, nuhun atas waktunya yang banyakk maneh luangkan, lancar lancar yaa pin p3knya, semoga kapoknya maneh bekerjasama bareng urg, ga bikin maneh ga mau bekerjasama lagi dilainhal meren hahahaha, nuhunn pinnn sehat sellaaluuu yaaa",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2401265",
+    "staffNim": "2401265",
+    "staffName": "Ariel Hidayatul Faqih",
+    "message": "Haloo arielll, si monev ini, btw MONEV KOK GW GAPERNAH DAPET JIR, apa si jul ga ngasih ya woadkoawkd, btw makasii yaa rill udah bantu bantu banyak terkait monev an, semoga dilancarkan ngaspraknya yaa (eh asprak bukan si lupa), semoga next semester dimudahkan yaa",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2405572",
+    "staffNim": "2405572",
+    "staffName": "Belva Risma Aydina",
+    "message": "Halo ibu ketuplak RAM, apa kabs brow, udahan kah lpj lpj annya? udah alhamdulillah hehehe, nuhun yaa belva udah membantu membuat acara perdana untuk mahasiswa baru yang super meriah, semoga menjadi kesan baik juga untuk adik adik kita atas penyambutan pertama mereka, lancar lancar yaa bu asprak next semesternya, sampai jumpa dilain kesempatan belva",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2401322",
+    "staffNim": "2401322",
+    "staffName": "Dewa Ahmad Septriansyah",
+    "message": "Halo mas sekre DPO, lancar lancar mapressnya dew, semoga lolos yaaa, terimakasih banyak udah jadi sekre DPO yang suratnya ga abis abis, semoga apa yang dilakukan menjadi lillah yaaa dew, semangattt buat next semesternya",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2404626",
+    "staffNim": "2404626",
+    "staffName": "Dzaky Prima Yoga",
+    "message": "Pak ketuplak Plasa, yang satset kalau jadi humas, Nuhun udah bantu mensukseskan pelantikan teman teman maru 25, walau banyak banget yaa yang perlu disesuaikan diplasa kemarin, intinya mau ngucapin nuhun pisan udah jadi ketuplak yang proaktif dan membersamai semua anggotanya, sukses selalu dzaky, semoga berjumpa lagi as mapres FPMIPA kedepannya, semanngattt bro",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2405158",
+    "staffNim": "2405158",
+    "staffName": "Fakhira Zaafarani Husna",
+    "message": "fakhira si komando lapangan, gimana di UKM nya? lancar gaa? semmoga dimudahkan yaa, karna asa cocok weh maneh disitu, btw makasih banyak yaa udah jadi danlap yang mau belajar dari Mokaprodi sampai plasa, kerasa banget bantuan maneh pak, nuhun udah menerima jobdesk yang diberikan, lancar lancar yaa fakhira next semesternya, semoga dimudahkan dan apa yang sudah dilakukan bisa bernilai kebaikan aamiin, lancar lancar yaa",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2410024",
+    "staffNim": "2410024",
+    "staffName": "Farah Maulida",
+    "message": "Halo farah, mentor mentor katanya next mau ke bali? hayu ah, nuhun yaa farah udah mau bantu megang mentoring yang konsep ditahun sekarnag cukup berbeda, dimana mentoring cukup lama, walau try and try buat mentoring ini, aku mau ngucapiinn nuhunn yaa sudah banyak membantuu, lancar lancar next semesternyaa farahh, semoga dimudahkan yaaa ><",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2401626",
+    "staffNim": "2401626",
+    "staffName": "Firda Ridzki Utami",
+    "message": "Haloo firda, gimana kabarnyaa? semoga baik baik aja yaa? lagi sibuk ga? cnh kita mau interface ke bali ya? oiya makasii yaa udah bantu merancang interface tahun sekarang, lancar lancar kuliah kedepannya firdaa",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2400494",
+    "staffNim": "2400494",
+    "staffName": "Khairatul Husna Tartila",
+    "message": "Haiii nana, apa kabar? kamu lagi proker apa skrng? (asa husna melulu ketemu), makasi banyak yaa udah jadi bagian aktif kemakom, yang mengusahakan banyak hal buat kemakom, husna juga ak liat sebagai ketuplak yang proaktif, membantu menyukseskan KLT di sela sela dinamika perjalannya, lancar lancar yaa husna next urusannya, semoga dimudahkan, jangan lupaa istirahat yaa naa, sukses selaluu!!!",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2405216",
+    "staffNim": "2405216",
+    "staffName": "Muhammad Mirza Fayzul Haq",
+    "message": "helo mas jot, nuhun yaa es udah jadi ketuplak bmail, udah mengusulkan inovasi baru untuk bmail, dan tentunya bertanggung jawab dari tanggungjawab yang udah diberikan, nuhun jot ges jadi bagian DPO, udah jadi pdd proker lainnya, jadi staf closing p2m, pokonya nuhun pisan yaa, lancar lancar gawenya nanti, semoga berkah rezeki dan dilancarkan kedepannya es",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2409461",
+    "staffNim": "2409461",
+    "staffName": "Muhammad Raditya Santosa",
+    "message": "Halo radit, ketuplak upgrading proker pertama DPO, walau prokernya dh selesai, tanggung jawabnya sampai akhir periode, nuhun yaa dit udah jadi bagian DPO yang mengusahakan segala proker dengan baik, lancar lancar ngaspraknya dan buat next periodenya, semoga dimudahkan segala halnya yaa",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2403463",
+    "staffNim": "2403463",
+    "staffName": "Muhammad Romdhon Indra Galuh",
+    "message": "Halo mas galuh, ketuplak mokaprodi, nuhun yaa galuh udah jadi ketuplak yang gacor pisan, udah jadi bagian dari p2m, dan tentunya proker proker bem lainnya, kapan masakin lagi luh? udh laper ieu brok, btw lancar lancar es next semesternya, semoga dimudahkan yaa, nitip salam buat cewe mane (bebas siapa weh soalnya ga tau skrng yg mana lagi)",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2410393",
+    "staffNim": "2410393",
+    "staffName": "Najmi Alifah Hilmiya",
+    "message": "Haloo najmi, semoga sehat selalu yaa, terimakasihh banyak udah jadi bendahara DPO, semoga nanti uangnya beneran jadi uang maneh yaa bukan uang titipan dpo lagi hehehehe, lancar lancar najmi kuliahnyaa",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2310850",
+    "staffNim": "2310850",
+    "staffName": "Muhammad Naufal Arbanin",
+    "message": "oit banin, kadiv urang, nuhun yaa ges mengiyakan ajakan jadi kadiv pas di rumah jul, nuhun juga udh jadi kadiv dpmb yang mengusahakan dpmb tetep jadi \"keluarga\" walau banyak sekali dinamika ya ada, lancar lancar magangnya es ",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2303558",
+    "staffNim": "2303558",
+    "staffName": "Dewi Yanti",
+    "message": "Dew apa kabar dew, urang mau ngucapin terimakasihh yaaa udah mau mengiyakan ajakan jadi bagian DPMB lagi, ibu sekrab sekarang adeknya teh eka jir, btw makasi banyak yaa, klo maneh ga masuk cipa juga keanya ga masuk dah",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2311174",
+    "staffNim": "2311174",
+    "staffName": "Muhammad Alfi Fariz",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2301410",
+    "staffNim": "2301410",
+    "staffName": "Nuansa Bening Aura Jelita",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2305056",
+    "staffNim": "2305056",
+    "staffName": "Syifa Nur Azizah Suhud",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2401659",
+    "staffNim": "2401659",
+    "staffName": "Afni Alya Putri",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2405885",
+    "staffNim": "2405885",
+    "staffName": "Diva Wahyu Nugraha",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2408614",
+    "staffNim": "2408614",
+    "staffName": "Gherry Alviart",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2408622",
+    "staffNim": "2408622",
+    "staffName": "Iqbal Rizky Maulana",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2400076",
+    "staffNim": "2400076",
+    "staffName": "Kayla Emira Qonitah",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2401539",
+    "staffNim": "2401539",
+    "staffName": "Muhammad Adwar Salman",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2408352",
+    "staffNim": "2408352",
+    "staffName": "Naura Nur Faizah",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2408515",
+    "staffNim": "2408515",
+    "staffName": "Nur Abdillah Ifhamuddin",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2408680",
+    "staffNim": "2408680",
+    "staffName": "Raihan Wira Saputra",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2409514",
+    "staffNim": "2409514",
+    "staffName": "Raisyah Alika Salam",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2406682",
+    "staffNim": "2406682",
+    "staffName": "Salsabila Ramadhani Hasan",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2308372",
+    "staffNim": "2308372",
+    "staffName": "Muhammad Ridho Fajri",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2300408",
+    "staffNim": "2300408",
+    "staffName": "Cynthia Hasna Mazaya",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2310083",
+    "staffNim": "2310083",
+    "staffName": "Muhammad Daffa Rizmawan Harahap",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2302013",
+    "staffNim": "2302013",
+    "staffName": "Nabila Hermala Putri",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2310996",
+    "staffNim": "2310996",
+    "staffName": "Naufal Najib Arif",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2300990",
+    "staffNim": "2300990",
+    "staffName": "Rakha Akhyara",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2305309",
+    "staffNim": "2305309",
+    "staffName": "Rasendriya Andhika",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2402353",
+    "staffNim": "2402353",
+    "staffName": "Dewi Mustika Hidayah",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2405380",
+    "staffNim": "2405380",
+    "staffName": "Dhendi Syafa Athallah Putra",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2407846",
+    "staffNim": "2407846",
+    "staffName": "Dicka Fahrunaldo",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2404913",
+    "staffNim": "2404913",
+    "staffName": "Dzaka Musyaffa Hidayat",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2405436",
+    "staffNim": "2405436",
+    "staffName": "Kaisya Azzahra Salsabila",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2407792",
+    "staffNim": "2407792",
+    "staffName": "Mahendra Devid Putra Anwar",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2405170",
+    "staffNim": "2405170",
+    "staffName": "Mochammad Azka Basria",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2411481",
+    "staffNim": "2411481",
+    "staffName": "Muhammad Fittra Novria Rizky",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2400382",
+    "staffNim": "2400382",
+    "staffName": "Muhiban Fadlan Nursaid",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2401854",
+    "staffNim": "2401854",
+    "staffName": "Nayla Amelia Zahra",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2400655",
+    "staffNim": "2400655",
+    "staffName": "Nur Azizah Santoso",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2300498",
+    "staffNim": "2300498",
+    "staffName": "Alvyn Hadrian Nugraha",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2300822",
+    "staffNim": "2300822",
+    "staffName": "Ma'rifatu Ambiya",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2309844",
+    "staffNim": "2309844",
+    "staffName": "Sandy Achmad Nugraha",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2311697",
+    "staffNim": "2311697",
+    "staffName": "Dinda Natania Sugara",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2402238",
+    "staffNim": "2402238",
+    "staffName": "Ayu Mutia",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2400758",
+    "staffNim": "2400758",
+    "staffName": "Fedora Ariefa Ardian",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2407671",
+    "staffNim": "2407671",
+    "staffName": "Najmi Nur Layaliani",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2403800",
+    "staffNim": "2403800",
+    "staffName": "Nayla Tiani Putri",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2405916",
+    "staffNim": "2405916",
+    "staffName": "Raffie Arsy Ananda",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2409829",
+    "staffNim": "2409829",
+    "staffName": "Rafi Ahmad Al Farisi",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2402277",
+    "staffNim": "2402277",
+    "staffName": "Ryan Rahmawan",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2309549",
+    "staffNim": "2309549",
+    "staffName": "Hafizh Rasyid Ridha",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2309131",
+    "staffNim": "2309131",
+    "staffName": "Alya Nurul Hanifah",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2306838",
+    "staffNim": "2306838",
+    "staffName": "Tyka Yulistriany",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2404286",
+    "staffNim": "2404286",
+    "staffName": "Daffa Dhiyaa Candra",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2400297",
+    "staffNim": "2400297",
+    "staffName": "Muhammad Rangga Nur Praditha",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2408095",
+    "staffNim": "2408095",
+    "staffName": "Nadzalla Diva Asmara Sutedja",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2407915",
+    "staffNim": "2407915",
+    "staffName": "Nafis Asyakir Anjar",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2405787",
+    "staffNim": "2405787",
+    "staffName": "Naufal Zahid",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2405981",
+    "staffNim": "2405981",
+    "staffName": "Rifa Muhammad Danindra",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2408495",
+    "staffNim": "2408495",
+    "staffName": "Selika Kanajmi",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2400456",
+    "staffNim": "2400456",
+    "staffName": "Vivi Agustina Suryana",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2309179",
+    "staffNim": "2309179",
+    "staffName": "Ghefira Azka Fatharani",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2305680",
+    "staffNim": "2305680",
+    "staffName": "Aam Trianawati",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2304041",
+    "staffNim": "2304041",
+    "staffName": "Rina Tri Agustianis",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2406964",
+    "staffNim": "2406964",
+    "staffName": "Duan Jhon Steven Sinaga",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2400742",
+    "staffNim": "2400742",
+    "staffName": "Julia Rahmawati",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2404193",
+    "staffNim": "2404193",
+    "staffName": "Khusnul Nadhiva",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2406635",
+    "staffNim": "2406635",
+    "staffName": "Lutfiyanti Hegar Astuti",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2406627",
+    "staffNim": "2406627",
+    "staffName": "Misyel Aulia Azahara",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2408647",
+    "staffNim": "2408647",
+    "staffName": "Muhammad Maulana Adrian",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2405303",
+    "staffNim": "2405303",
+    "staffName": "Nopsandi Natanael",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2400146",
+    "staffNim": "2400146",
+    "staffName": "Rianti Agustini",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2404151",
+    "staffNim": "2404151",
+    "staffName": "Siti Agisna",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2312265",
+    "staffNim": "2312265",
+    "staffName": "Tsalitsa Nuril Syabina",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2305997",
+    "staffNim": "2305997",
+    "staffName": "Muhamad Wahyu Darmawan",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2309648",
+    "staffNim": "2309648",
+    "staffName": "Naufal Fakhri Al-Najieb",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2300414",
+    "staffNim": "2300414",
+    "staffName": "Rahmat Taufik Al Hidayah",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2301333",
+    "staffNim": "2301333",
+    "staffName": "Zaenal Rifa'i Saepudin",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2408249",
+    "staffNim": "2408249",
+    "staffName": "Hanif Habiburrahman",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2407142",
+    "staffNim": "2407142",
+    "staffName": "Mohammad Mudrik Mujayyin",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2410946",
+    "staffNim": "2410946",
+    "staffName": "Naufal Rizki Rabbani",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2402567",
+    "staffNim": "2402567",
+    "staffName": "Niha April Miani",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2410975",
+    "staffNim": "2410975",
+    "staffName": "Putri Ramadhani",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2403086",
+    "staffNim": "2403086",
+    "staffName": "Shakila Aulia Nurrul Rohman",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  },
+  {
+    "nim": "2400325",
+    "staffNim": "2400325",
+    "staffName": "Zulfian Rais Almanshur",
+    "message": "",
+    "response": "",
+    "timestamp": ""
+  }
+]
