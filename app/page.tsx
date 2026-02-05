@@ -58,43 +58,59 @@ export default function Home() {
   useEffect(() => {
     async function fetchData() {
       try {
+        console.log('Starting data fetch...');
+        
         const [staffRes, divisionsRes, messagesRes] = await Promise.all([
-          fetch('/api/staff'),
-          fetch('/api/divisions'),
-          fetch('/data/messages.json')
+          fetch('/api/staff', { cache: 'no-store' }),
+          fetch('/api/divisions', { cache: 'no-store' }),
+          fetch('/api/messages', { cache: 'no-store' })
         ]);
+        
+        if (!staffRes.ok || !divisionsRes.ok || !messagesRes.ok) {
+          throw new Error('Failed to fetch data from API');
+        }
         
         const staff = await staffRes.json();
         const divisions = await divisionsRes.json();
         const messagesData = await messagesRes.json();
         
+        console.log('Data fetched successfully:', {
+          staffCount: staff.length,
+          divisionsCount: divisions.length,
+          messagesCount: messagesData.length
+        });
+        
         setStaffData(staff);
         setDivisionsData(divisions);
 
         // Load messages dari JSON ke localStorage jika belum ada
-        messagesData.forEach((msg: MessageData) => {
-          if (msg.message && msg.message.trim() !== "") {
-            const staffKey = `staff_${msg.staffNim}`;
-            const existingMessages = JSON.parse(localStorage.getItem(staffKey) || "[]");
-            
-            // Cek apakah pesan ini sudah ada (berdasarkan nim dan message)
-            const isDuplicate = existingMessages.some(
-              (existing: MessageData) => 
-                existing.nim === msg.nim && 
-                existing.message === msg.message
-            );
-            
-            if (!isDuplicate) {
-              existingMessages.push({
-                ...msg,
-                timestamp: msg.timestamp || new Date().toISOString()
-              });
-              localStorage.setItem(staffKey, JSON.stringify(existingMessages));
+        if (Array.isArray(messagesData)) {
+          messagesData.forEach((msg: MessageData) => {
+            if (msg.message && msg.message.trim() !== "") {
+              const staffKey = `staff_${msg.staffNim}`;
+              const existingMessages = JSON.parse(localStorage.getItem(staffKey) || "[]");
+              
+              // Cek apakah pesan ini sudah ada (berdasarkan nim dan message)
+              const isDuplicate = existingMessages.some(
+                (existing: MessageData) => 
+                  existing.nim === msg.nim && 
+                  existing.message === msg.message
+              );
+              
+              if (!isDuplicate) {
+                existingMessages.push({
+                  ...msg,
+                  timestamp: msg.timestamp || new Date().toISOString()
+                });
+                localStorage.setItem(staffKey, JSON.stringify(existingMessages));
+              }
             }
-          }
-        });
+          });
+          console.log('Messages loaded to localStorage successfully');
+        }
       } catch (error) {
         console.error('Failed to fetch data:', error);
+        setError('Gagal memuat data. Silakan refresh halaman.');
       } finally {
         setIsLoading(false);
       }
@@ -110,6 +126,15 @@ export default function Home() {
       setError("NIM tidak boleh kosong");
       return;
     }
+
+    // Pastikan data sudah di-load
+    if (staffData.length === 0) {
+      setError("Data masih dimuat, mohon tunggu sebentar...");
+      return;
+    }
+
+    console.log('Checking NIM:', nim.trim());
+    console.log('Staff data count:', staffData.length);
 
     // Check jika admin
     if (nim.trim() === ADMIN_NIM) {
@@ -130,8 +155,11 @@ export default function Home() {
     // Cari data staff dengan NIM ini
     const staff = staffData.find(s => s.nim === nim.trim());
     
+    console.log('Found staff:', staff);
+    
     if (!staff) {
       setError("NIM tidak ditemukan. Pastikan Anda adalah pengurus BEM KEMAKOM.");
+      console.log('Available NIMs:', staffData.map(s => s.nim).join(', '));
       return;
     }
 
@@ -301,8 +329,9 @@ export default function Home() {
                 <Button 
                   type="submit" 
                   className="w-full h-11 bg-primary hover:bg-primary/90 font-medium"
+                  disabled={isLoading || staffData.length === 0}
                 >
-                  Masuk ke Portal
+                  {staffData.length === 0 ? 'Memuat data...' : 'Masuk ke Portal'}
                 </Button>
               </form>
             </CardContent>
