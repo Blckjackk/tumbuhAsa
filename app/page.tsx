@@ -795,7 +795,7 @@ export default function Home() {
         <Card className="shadow-sm border border-slate-200">
           <CardHeader className="border-b">
             <CardTitle className="text-xl font-semibold text-slate-900">
-              Kirim Pesan ke Azzam
+              Barangkali pesan untuk Azzam?
             </CardTitle>
             <CardDescription className="text-slate-600 mt-1">
               Tulis pesan Anda untuk Azzam
