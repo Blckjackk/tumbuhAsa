@@ -28,6 +28,7 @@ export default function AdminPage() {
 
   useEffect(() => {
     const storedMessages = JSON.parse(localStorage.getItem("messages") || "[]");
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMessages(storedMessages);
   }, []);
 
