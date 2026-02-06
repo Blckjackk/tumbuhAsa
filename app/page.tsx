@@ -174,12 +174,6 @@ export default function Home() {
     setError("");
   };
 
-  const handleRespond = (message: MessageData) => {
-    setSelectedMessage(message);
-    setResponseText(message.response || "");
-    setIsDialogOpen(true);
-  };
-
   const handleSaveResponse = () => {
     if (!selectedMessage || !staffInfo) return;
 
@@ -224,32 +218,6 @@ export default function Home() {
 
     alert(`Pesan berhasil dikirim ke ${newMessage.staffName}!`);
     setSelectedStaffNim("");
-    setAdminMessage("");
-  };
-
-  const handleSendMessageToAdmin = (e: React.FormEvent) => {
-    e.preventDefault();
-
-    if (!staffInfo || !adminMessage.trim()) {
-      return;
-    }
-
-    const newMessage: MessageData = {
-      nim: staffInfo.nim,
-      staffNim: ADMIN_NIM,
-      staffName: staffData.find(s => s.nim === ADMIN_NIM)?.nama || "Azzam",
-      message: adminMessage.trim(),
-      response: "",
-      timestamp: new Date().toISOString(),
-    };
-
-    // Save ke inbox admin (2300492)
-    const adminKey = `staff_${ADMIN_NIM}`;
-    const existingMessages = JSON.parse(localStorage.getItem(adminKey) || "[]");
-    existingMessages.push(newMessage);
-    localStorage.setItem(adminKey, JSON.stringify(existingMessages));
-
-    alert("Pesan berhasil dikirim ke Azzam!");
     setAdminMessage("");
   };
 
